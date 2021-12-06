@@ -1,0 +1,22 @@
+<div class="form-row" [formGroup]="form">
+    <div class="form-group  col-6" *ngIf="pregunta">
+        <label for="input{{pregunta.idPregunta}}">{{ pregunta.descripcionPregunta }}<img src="assets/img/icon-help.svg" class="icon-help ml-1" width="15px" alt="botón ayuda" matTooltip="{{pregunta.tooltip}}"></label>
+        <input 
+          id="input{{pregunta.idPregunta}}" 
+          [ngClass]="form.controls[pregunta.formName].invalid && (form.controls[pregunta.formName].dirty || form.controls[pregunta.formName].touched) ? 'is-invalid': ''"
+          type="number"
+          name="input{{pregunta.idPregunta}}" 
+          [formControlName]="pregunta.formName" 
+          class="form-control" 
+          placeholder="">
+        <small id="inputHelpBlock{{pregunta.idPregunta}}" class="form-text text-muted">
+          {{pregunta?.help}}
+        </small>
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+          <div *ngIf="form.controls[pregunta.formName].errors?.required">
+              Campo requerido
+          </div>  
+        </div>
+      </div>
+</div>

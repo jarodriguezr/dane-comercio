@@ -1,0 +1,18 @@
+<div class="form-row" [formGroup]="form">
+    <div class="form-group col-12 " *ngIf="pregunta">
+        <label for="input{{pregunta.idPregunta}}">{{ pregunta.descripcionPregunta }}<img src="assets/img/icon-help.svg" class="icon-help ml-1" width="15px" alt="botón ayuda" matTooltip="{{pregunta.tooltip}}"></label>
+        <section class="example-section">        
+          <span class="example-list-section">
+            <ul>
+              <li *ngFor="let respuesta of pregunta.opcionesRespuesta">
+                <mat-checkbox [value]="respuesta?.idRsRespuesta"
+                [formControlName]="pregunta.formName"
+                >
+                  {{respuesta?.descripcionRespuesta}}
+                </mat-checkbox>
+              </li>
+            </ul>
+          </span>
+        </section>
+      </div>
+</div>

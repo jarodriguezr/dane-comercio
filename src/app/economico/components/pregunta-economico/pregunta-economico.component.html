@@ -1,0 +1,35 @@
+    <app-input-text-default
+      *ngIf="pregunta?.tipoInput === 'TEXT_DEFAULT'"
+      [pregunta]="pregunta"
+      [form]="form"
+    ></app-input-text-default>
+
+    <app-input-textbox
+      *ngIf="pregunta?.tipoInput === 'TEXTBOX'"
+      [pregunta]="pregunta"
+      [form]="form"
+    ></app-input-textbox>
+
+    <app-input-number
+    *ngIf="pregunta?.tipoInput === 'NUMBERBOX'"
+    [pregunta]="pregunta"
+    [form]="form"
+    ></app-input-number>
+
+    <app-input-checkbox
+      *ngIf="pregunta.tipoInput === 'CHECKBOX'"
+      [pregunta]="pregunta"
+      [form]="form"
+    ></app-input-checkbox>
+    
+    <app-select-code 
+      *ngIf="pregunta?.tipoInput === 'SELECT_CODE' || pregunta?.tipoInput === 'SELECT_DOBLE'"
+      [pregunta]="pregunta"
+      [formulario]="form"
+    ></app-select-code>
+   
+    <app-input-radio
+      *ngIf="pregunta.tipoInput === 'RADIO_SELECT' || pregunta.tipoInput === 'RADIO_DEFAULT'"
+      [pregunta]="pregunta"
+      [form]="form"
+    ></app-input-radio>

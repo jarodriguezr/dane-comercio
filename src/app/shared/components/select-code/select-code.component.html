@@ -1,0 +1,22 @@
+<div class="form-row" [formGroup]="formulario" *ngIf="pregunta">
+    <div class="form-group col-6"  *ngIf="!isHidden">        
+        <label for="inputState">{{pregunta?.descripcionPregunta }}</label>
+        <select 
+            id="input{{pregunta?.idPregunta}}" 
+            name="input{{pregunta?.idPregunta}}" 
+            [formControlName]="pregunta?.formName"
+            [ngClass]="formulario.controls[pregunta.formName].invalid && (formulario.controls[pregunta.formName].dirty || formulario.controls[pregunta.formName].touched) ? 'is-invalid': ''"
+            class="form-control">            
+            <option *ngFor="let item of pregunta?.opcionesRespuesta; let i = index" [value]="item.idParametro">{{item.nombre}}</option>    
+        </select>
+        <small id="inputHelpBlock{{pregunta.idPregunta}}" class="form-text text-muted">
+            {{pregunta?.help}}
+        </small>
+        <div class="valid-feedback"></div>
+        <div class="invalid-feedback">
+            <div *ngIf="formulario.controls[pregunta.formName].errors?.required">
+                Campo requerido
+            </div>  
+        </div>      
+    </div>
+</div>
