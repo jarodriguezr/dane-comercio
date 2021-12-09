@@ -25,8 +25,9 @@ export class ModuloEconomicoComponent implements OnInit, OnDestroy {
     if(this.dataModule.secciones.length === 0){
       this.dataModule.tabActive = false;
     }
-              
-    this.formulario = this.dataModule.groupModuleForm;
+    console.log(this.dataModule)          
+    this.formulario = this.dataModule;
+    debugger
     this.formulario.statusChanges
     .pipe(takeUntil(this.destroy$))
     .subscribe( status => {      
@@ -50,7 +51,7 @@ export class ModuloEconomicoComponent implements OnInit, OnDestroy {
     // temporal borrar
     for (const key in this.formulario.controls) {
       if (Object.prototype.hasOwnProperty.call(this.formulario.controls, key)) {
-
+        debugger
         const element = this.formulario.controls[key];
         if(element.status === "INVALID"){
           console.log(key);

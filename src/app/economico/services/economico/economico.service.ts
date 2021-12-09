@@ -22,9 +22,11 @@ export class EconomicoService {
   reporValue = (data) => this.filtroForm.next(data);
 
   getModulos(){
+    debugger
     //return this.httpService.get('dane/api/v1/formularioCenso/idEnc/1', this.sessionService.getHeaders())
     return this.httpService.loadDataJsonTemp('/assets/json/response.json')
     .pipe(map( (resp: any) => {
+      debugger
       resp[0].modulos.forEach((element,index) => { 
         
         element.tabDisabled = index === 0 ? false : true ;
@@ -51,11 +53,9 @@ export class EconomicoService {
          });
          element.groupModulePreg = groupModulePreg;
          element.groupModuleForm = new FormGroup(groupModuleForm);
-       });
-       
-       
+      });
        return resp[0];
-     }));;
+    }))
   }
 
   private crearValidaciones(data:any): any[] {
