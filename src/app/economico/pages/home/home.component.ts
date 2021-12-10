@@ -20,19 +20,17 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    debugger
     this.http.loadDataJsonTemp('assets/json/response2.json').subscribe( (data:any) => {
-      debugger
       this.dataForm = data;
       this.currentItem = this.dataForm?.modulos[0];
       this.preload = false;
     });
-    //this.preload = true;
-    //this.economicoService.getModulos().subscribe( (resp:any) => {      
-    //this.dataForm = resp;
-    //this.currentItem = this.dataForm?.modulos[0];
-    //this.preload = false;
-    //});
+    // this.preload = true;
+    // this.economicoService.getModulos().subscribe( (resp:any) => {      
+    //    this.dataForm = resp;
+    //    this.currentItem = this.dataForm?.modulos[0];
+    //    this.preload = false;
+    // });
 
 
     this.economicoService.filtroForm$.subscribe( data => {

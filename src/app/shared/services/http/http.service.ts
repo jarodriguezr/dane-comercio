@@ -25,42 +25,48 @@ export class HttpService {
 
 
   public loadDataJsonTemp(pathJson: string){
-    debugger
+    alert(pathJson);
     return this.http.get(pathJson)
     .pipe(map( (resp: any) => {
-      debugger
-      resp.forEach((element,index) => { 
-      debugger
+      alert('llega modulos');
+      alert(JSON.stringify(resp));
+      var funcs = [1, 2].forEach( (i) => alert("hola") )
+     
+      resp[0].modulos.forEach((element,index) => { 
+      
+
        if(index == 0){
         element.tabActive = true;
         element.showTab = true
        } else {
         element.tabActive = false;
         element.showTab = false
-       }
+       }      
+        
         const groupModuleForm: any = {};
-        const groupModulePreg: any = [];        
-        element.modulos.forEach((seccion)=> {
-          
+        const groupModulePreg: any = [];
+        
+        element.secciones.forEach(elementSecciones => {
+
           const groupSeccionPreg: any = [];
-          seccion.secciones.forEach(preg => {
-              preg.preguntas.forEach(pregunta => {
-                pregunta.formName = pregunta.variable;
-                groupSeccionPreg.push(pregunta);            
-                const validaciones:any[] = this.crearValidaciones(pregunta.validaciones);
-                groupModuleForm[pregunta.variable] = new FormControl('' ,[...validaciones]);
-              
-              });
-            groupModulePreg.push(groupSeccionPreg);            
+
+          elementSecciones.preguntas.forEach(preg => {
+            preg.formName = preg.variable;
+            groupSeccionPreg.push(preg);            
+            const validaciones:any[] = this.crearValidaciones(preg.validaciones);                        
+            
+            groupModuleForm[preg.variable] = new FormControl('' ,[...validaciones]);
           });
+          groupModulePreg.push(groupSeccionPreg);
+
+        });
         element.groupModulePreg = groupModulePreg;
         element.groupModuleForm = new FormGroup(groupModuleForm);
-        });
-        })
-        debugger
-        console.log(resp[0]);
-        return resp[0];
-    }))
+      });
+      
+      
+      return resp[0];
+    }));
   }
 
   private crearValidaciones(data:any): any[] {

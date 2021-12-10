@@ -16,7 +16,6 @@ export class SeccionEconomicoComponent implements OnInit {
   ngOnInit(): void {}
 
   toFormGroup( preguntas: any[] ) {
-    debugger
     const group: any = {};
     preguntas.forEach(item => {
       group[`pregunta-${item.idPregunta}`] = new FormControl('' , Validators.required);

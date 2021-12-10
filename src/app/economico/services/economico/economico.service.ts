@@ -22,40 +22,41 @@ export class EconomicoService {
   reporValue = (data) => this.filtroForm.next(data);
 
   getModulos(){
-    debugger
-    //return this.httpService.get('dane/api/v1/formularioCenso/idEnc/1', this.sessionService.getHeaders())
-    return this.httpService.loadDataJsonTemp('/assets/json/response.json')
-    .pipe(map( (resp: any) => {
-      debugger
-      resp[0].modulos.forEach((element,index) => { 
+    // alert("desde economic");
+    // //return this.httpService.get('dane/api/v1/formularioCenso/idEnc/1', this.sessionService.getHeaders())
+    // return this.httpService.loadDataJsonTemp('/assets/json/response.json')
+    // .pipe(map( (resp: any) => {
+    //   resp[0].modulos.forEach((element,index) => { 
         
-        element.tabDisabled = index === 0 ? false : true ;
+    //     element.tabDisabled = index === 0 ? false : true ;
          
-         const groupModuleForm: any = {};
-         const groupModulePreg: any = [];
+    //      const groupModuleForm: any = {};
+    //      const groupModulePreg: any = [];
          
-         element.secciones.forEach(elementSecciones => {
+    //      element.secciones.forEach(elementSecciones => {
             
-           const groupSeccionPreg: any = [];
+    //        const groupSeccionPreg: any = [];
  
-           elementSecciones.preguntas.forEach(preg => {
-              preg.disabled = true;
-            // console.log(preg);
+    //        elementSecciones.preguntas.forEach(preg => {
+    //           preg.disabled = true;
+    //         // console.log(preg);
             
-             preg.formName = preg.variable;
-             groupSeccionPreg.push(preg);            
-             const validaciones:any[] = this.crearValidaciones(preg.validaciones);                        
+    //          preg.formName = preg.variable;
+    //          groupSeccionPreg.push(preg);            
+    //          const validaciones:any[] = this.crearValidaciones(preg.validaciones);                        
              
-             groupModuleForm[preg.variable] = new FormControl('' ,[...validaciones]);
-           });
-           groupModulePreg.push(groupSeccionPreg);
+    //          groupModuleForm[preg.variable] = new FormControl('' ,[...validaciones]);
+    //        });
+    //        groupModulePreg.push(groupSeccionPreg);
  
-         });
-         element.groupModulePreg = groupModulePreg;
-         element.groupModuleForm = new FormGroup(groupModuleForm);
-      });
-       return resp[0];
-    }))
+    //      });
+    //      element.groupModulePreg = groupModulePreg;
+    //      element.groupModuleForm = new FormGroup(groupModuleForm);
+    //    });
+       
+       
+    //    return resp[0];
+    //  }));;
   }
 
   private crearValidaciones(data:any): any[] {
