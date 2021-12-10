@@ -25,10 +25,16 @@ export class HttpService {
 
 
   public loadDataJsonTemp(pathJson: string){
+    alert(pathJson);
     return this.http.get(pathJson)
     .pipe(map( (resp: any) => {
-     resp.modulos.forEach((element,index) => { 
-       alert('llega modulos');
+      alert('llega modulos');
+      alert(JSON.stringify(resp));
+      var funcs = [1, 2].forEach( (i) => alert("hola") )
+     
+      resp[0].modulos.forEach((element,index) => { 
+      
+
        if(index == 0){
         element.tabActive = true;
         element.showTab = true
