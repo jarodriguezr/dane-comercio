@@ -1,7 +1,6 @@
-<h1>TEXT-DEFAULT</h1>
 <div class="form-row" [formGroup]="form">
     <div class="form-group" *ngIf="pregunta">
-        <label for="input{{pregunta.idPregunta}}">{{ pregunta.descripcionPregunta }}
+        <label for="input{{pregunta.idPregunta}}">{{pregunta.descripcionPregunta}}
           <img src="assets/img/icon-help.svg" 
             class="icon-help ml-1" width="15px" 
             alt="botón ayuda" matTooltip="{{pregunta.tooltip}}">
@@ -23,5 +22,5 @@
               Campo requerido
           </div>  
         </div>
-      </div> 
+    </div>
 </div>

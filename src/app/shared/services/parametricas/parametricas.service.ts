@@ -9,11 +9,12 @@ import { HttpService } from '../http/http.service';
 export class ParametricasService {
 
   constructor(
+    private http: HttpService,
     private httpService: HttpService,
     private sessionService: SessionService
   ) { }
 
-  getGeneral = (endPoint) => this.httpService.get(endPoint, this.sessionService.getHeaders())
+  getGeneral = (endPoint) => this.http.get(endPoint, this.sessionService.getHeaders())
                                               .pipe(map( (m:any) => {
                                                   m.forEach(element => {
                                                     element.descripcionRespuesta = element.descripcion;

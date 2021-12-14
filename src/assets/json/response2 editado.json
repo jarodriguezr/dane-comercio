@@ -1,0 +1,226 @@
+[
+    {
+      "idEncuesta": 1,
+      "nombreEncuesta": "CUESTIONARIO BÁSICO CENSO ECONÓMICO 2021 (preliminar sin ajustes de consulta)",
+      "modulos": [
+        {
+          "idModulo": 1,
+          "idEncuesta": 1,
+          "nombreModulo": "MÓDULO 1 - IDENTIFICACIÓN Y DATOS GENERALES",
+          "idGrupoModuloPrin": null,
+          "visible": 1,
+          "activo": 1,
+          "orden": 1,
+          "tooltip": "Ubicación",
+          "secciones": [
+            {
+              "idGrupo": 1,
+              "idModulo": 1,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 1. IDENTIFICACIÓN",
+              "orden": 2,
+              "activo": 1,
+              "tooltip": "2. IDENTIFICACIÓN",
+              "preguntas": [
+                {
+                  "idPregunta": 3,
+                  "idGrupo": 2,
+                  "codPregunta": null,
+                  "descripcionPregunta": null,
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_DEFAULT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "NIT",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 931,
+                      "idPregunta": 3,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "C.C.",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 932,
+                      "idPregunta": 3,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "C.E.",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 948,
+                      "idPregunta": 3,
+                      "OrdenRespuesta": 3,
+                      "descripcionRespuesta": "2.c. Rural disperso (Clase 3)",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 3
+                    }
+                  ],
+                  "opcionesUsuario": [
+                    "2"
+                  ],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CLASE",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 4,
+                  "idGrupo": 2,
+                  "codPregunta": null,
+                  "descripcionPregunta": "2.a.1 Nombre de la localidad o comuna (si aplica)",
+                  "orden": 2,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "SELECT_CODE",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "2.a.1 Nombre de la localidad o comuna (si aplica)",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [],
+                  "opcionesUsuario": [
+                    null
+                  ],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": "dane/api/v1/Parametro/generico/4/",
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "LOCALIDAD",
+                  "tabla": null,
+                  "depende": [
+                    {
+                      "campo": "MPIO",
+                      "tipo": "SELECT",
+                      "valor": null
+                    }
+                  ]
+                },
+                {
+                  "idPregunta": 6,
+                  "idGrupo": 2,
+                  "codPregunta": null,
+                  "descripcionPregunta": "2.b.1 Nombre del centro poblado",
+                  "orden": 5,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "SELECT_CODE",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "2.b.1 Nombre del centro poblado",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [],
+                  "opcionesUsuario": [
+                    "Example"
+                  ],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": "dane/api/v1/Parametro/generico/5/",
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CPOBL_NOM",
+                  "tabla": null,
+                  "depende": [
+                    {
+                      "campo": "CLASE",
+                      "tipo": "VALOR",
+                      "valor": "932"
+                    },
+                    {
+                      "campo": "MPIO",
+                      "tipo": "SELECT",
+                      "valor": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

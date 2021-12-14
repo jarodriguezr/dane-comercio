@@ -73,13 +73,13 @@ export class SelectCodeComponent implements OnInit , OnDestroy {
 
         // obtener datos para carga de componente select 
               
-      }else {    
+      }else { 
+        debugger   
         
-        if(this.pregunta?.selectInvocar?.url){
+        if(this.pregunta?.validaciones?.selectInvocar?.url){
        
-          this.parametricasService.getGeneral(this.pregunta.selectInvocar.url).subscribe( (resp:any) => {
-            this.pregunta.opcionesRespuesta = resp
-          
+          this.parametricasService.getGeneral(this.pregunta.validaciones.selectInvocar.url).subscribe( (resp:any) => {
+            this.pregunta.opcionesRespuesta = resp          
             
           } );      
         } else {
