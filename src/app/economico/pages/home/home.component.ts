@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
     //    this.dataForm = resp;
     //    this.currentItem = this.dataForm?.modulos[0];
     //    this.preload = false;
-    // });
+   // });
 
 
     this.economicoService.filtroForm$.subscribe( data => {

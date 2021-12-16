@@ -32,21 +32,21 @@ export class LoginComponent implements OnInit {
   }
 
   submit(){
-    if(this.formulario.invalid){
-        this.formulario.markAllAsTouched();
-    } else {
-    //  alert('llega');
-      this.router.navigate(['home']);
-      // this.sessionService.login(this.formulario.getRawValue()).subscribe( resp => {                
-      //   this.sessionService.setSession(resp);
-      //   this.formulario.reset();
-      //   this.router.navigate(['home']);
+    this.router.navigate(['home']);
+    // if(this.formulario.invalid){
+    //     this.formulario.markAllAsTouched();
+    // } else {
+      
+    //   this.sessionService.login(this.formulario.getRawValue()).subscribe( resp => {                
+    //     this.sessionService.setSession(resp);
+    //     this.formulario.reset();
+    //     this.router.navigate(['home']);
         
-      // }, err => {        
+    //   }, err => {        
         
-      //   // @TODO, colocar alerta de error 
-      // });
-    }
+    //     // @TODO, colocar alerta de error 
+    //   });
+   // }
     
   }
 

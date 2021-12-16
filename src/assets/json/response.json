@@ -18,7 +18,8 @@
 			"orden": 1,
 			"activo": 1,
 			"tooltip": "1. Departamento y municipio o corregimiento departamental",
-			"preguntas": [{
+			"preguntas": [
+				{
 				"idPregunta": 1,
 				"idGrupo": 1,
 				"variable": "DPTO",
@@ -559,7 +560,7 @@
 				},
 				"opcionesRespuesta": [],
 				"opcionesUsuario": ["cra 10 dinamico"]
-			}, {
+			},{
 				"idPregunta": 13,
 				"idGrupo": 5,
 				"variable": "DIREC_COMP",
@@ -601,7 +602,7 @@
 				},
 				"opcionesRespuesta": [],
 				"opcionesUsuario": ["Torre 1 dinamico"]
-			}, {
+			},  {
 				"idPregunta": 14,
 				"idGrupo": 5,
 				"variable": "DIREC_BARRIO",
