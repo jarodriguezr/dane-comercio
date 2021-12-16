@@ -83,13 +83,24 @@ export class SelectCodeComponent implements OnInit , OnDestroy {
           if(this.pregunta?.variable=='MPIO'){
             this.parametricasService.getmpio.subscribe( (resp:any) => {
               debugger
-              this.pregunta.opcionesRespuesta = resp} );
+              this.pregunta.opcionesRespuesta = resp
+              this.pregunta.opcionesRespuesta.unshift({
+                codigo:null,
+                nombre: "Seleccionar",
+              });
+            } );
           }
           if(this.pregunta?.variable=='DPTO'){
             this.parametricasService.getdpto.subscribe( (resp:any) => {
               debugger
-              this.pregunta.opcionesRespuesta = resp} );
+              this.pregunta.opcionesRespuesta = resp
+              this.pregunta.opcionesRespuesta.unshift({
+                codigo:null,
+                nombre: "Seleccionar",
+              });
+            } );
           }
+         
                 
         } else {
           this.pregunta.opcionesRespuesta.unshift({
