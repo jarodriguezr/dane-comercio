@@ -88,17 +88,6 @@
                       "origenRespuesta": null,
                       "activo": 1,
                       "ordenRespuesta": 3
-                    },
-                    {
-                      "idRsRespuesta": 16,
-                      "idPregunta": 23,
-                      "OrdenRespuesta": 4,
-                      "descripcionRespuesta": "No informa",
-                      "reglaRespuesta": null,
-                      "tipoDatoRespuesta": null,
-                      "origenRespuesta": null,
-                      "activo": 1,
-                      "ordenRespuesta": 4
                     }
                   ],
                   "opcionesUsuario": [],
@@ -179,17 +168,6 @@
                       "origenRespuesta": null,
                       "activo": 1,
                       "ordenRespuesta": 3
-                    },
-                    {
-                      "idRsRespuesta": 16,
-                      "idPregunta": 23,
-                      "OrdenRespuesta": 4,
-                      "descripcionRespuesta": "No informa",
-                      "reglaRespuesta": null,
-                      "tipoDatoRespuesta": null,
-                      "origenRespuesta": null,
-                      "activo": 1,
-                      "ordenRespuesta": 4
                     }
                   ],
                   "opcionesUsuario": [],
@@ -254,14 +232,14 @@
                   "idPregunta": 4,
                   "idGrupo": 1,
                   "codPregunta": null,
-                  "descripcionPregunta": "3. Digite el número de Cédula de Ciudadanía/Tarjeta de Identidad/NUIP",
+                  "descripcionPregunta": "Digito de verificación",
                   "orden": 1,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
                   "tipoInput": "NUMBERBOX",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "Digite el número de Cédula de Ciudadanía/Tarjeta de Identidad/NUIP",
+                  "tooltip": "Digite el digito de verificación",
                   "validaciones": {
                     "requerido": {
                       "value": true,
@@ -771,14 +749,14 @@
                   "idGrupo": 1,
                   "variable": "MPIO",
                   "codPregunta": null,
-                  "descripcionPregunta": "1.2 Nombre del municipio o áreas no municipalizadas",
+                  "descripcionPregunta": "5. Municipio",
                   "orden": 2,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
                   "tipoInput": "SELECT_CODE",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "1.2 Nombre del municipio o áreas no municipalizadas",
+                  "tooltip": "Seleccione el municipio ",
                   "depende": "DPTO",
                   "validaciones": {
                     "requerido": {
@@ -817,14 +795,14 @@
                   "idGrupo": 1,
                   "variable": "DPTO",
                   "codPregunta": null,
-                  "descripcionPregunta": "1.1 Nombre del departamento",
+                  "descripcionPregunta": "6 Departamento",
                   "orden": 1,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
                   "tipoInput": "SELECT_CODE",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "1.1 Nombre del departamento",
+                  "tooltip": "Seleccione el departamento",
                   "validaciones": {
                     "requerido": {
                       "value": true,
@@ -1136,14 +1114,14 @@
                   "idGrupo": 1,
                   "variable": "MPIO",
                   "codPregunta": null,
-                  "descripcionPregunta": "1.2 Nombre del municipio o áreas no municipalizadas",
+                  "descripcionPregunta": "12. Municipio",
                   "orden": 2,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
                   "tipoInput": "SELECT_CODE",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "1.2 Nombre del municipio o áreas no municipalizadas",
+                  "tooltip": "Seleccione Municipio",
                   "depende": "DPTO",
                   "validaciones": {
                     "requerido": {
@@ -1182,14 +1160,14 @@
                   "idGrupo": 1,
                   "variable": "DPTO",
                   "codPregunta": null,
-                  "descripcionPregunta": "1.1 Nombre del departamento",
+                  "descripcionPregunta": "13 Departamento",
                   "orden": 1,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
                   "tipoInput": "SELECT_CODE",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "1.1 Nombre del departamento",
+                  "tooltip": "Seleccione el departamento",
                   "validaciones": {
                     "requerido": {
                       "value": true,
@@ -1226,14 +1204,14 @@
                   "idPregunta": 190,
                   "idGrupo": 19,
                   "codPregunta": null,
-                  "descripcionPregunta": "8. Redes sociales",
+                  "descripcionPregunta": "14 Teléfono",
                   "orden": 1,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
-                  "tipoInput": "TEXTBOX",
+                  "tipoInput": "NUMBERBOX",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "Redes sociales",
+                  "tooltip": "Ingresar número de teléfono",
                   "validaciones": {
                     "requerido": {
                       "value": true,
@@ -1272,14 +1250,14 @@
                   "idPregunta": 190,
                   "idGrupo": 19,
                   "codPregunta": null,
-                  "descripcionPregunta": "7. Teléfono",
+                  "descripcionPregunta": "15. Redes sociales",
                   "orden": 1,
                   "tipoPregunta": 0,
                   "idPreguntaPadre": null,
-                  "tipoInput": "NUMBERBOX",
+                  "tipoInput": "TEXTBOX",
                   "activo": 1,
                   "tipoRespuesta": null,
-                  "tooltip": "Opciones",
+                  "tooltip": "Redes sociales",
                   "validaciones": {
                     "requerido": {
                       "value": true,
@@ -1755,6 +1733,306 @@
               "tooltip": "Numeral 7.  INGRESOS OPERACIONALES DE LA EMPRESA.",
               "preguntas": [
                 {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": " ",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Opciones",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "Mantenimiento y reparación",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "Compra y venta de productos (comercio)",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 19,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 3,
+                      "descripcionRespuesta": "Fabricación, elaboración y/o transformación de productos manufacturados - Prestación de servicios manufactureros",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 3
+                    },
+                    {
+                      "idRsRespuesta": 20,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 4,
+                      "descripcionRespuesta": "Alojamientos, restaurantes, cafeterías, bares, expendios de comida",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 4
+                    },
+                    {
+                      "idRsRespuesta": 21,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 5,
+                      "descripcionRespuesta": "Actividades complementarias al transporte, correo y mensajería",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 5
+                    },
+                    {
+                      "idRsRespuesta": 22,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 6,
+                      "descripcionRespuesta": "Información, comunicaciones,  cine, televisión, informática, edición",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 6
+                    },
+                    {
+                      "idRsRespuesta": 23,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 7,
+                      "descripcionRespuesta": "Inmobiliarias y alquileres",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 7
+                    },
+                    {
+                      "idRsRespuesta": 24,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 8,
+                      "descripcionRespuesta": "Educación y atención a la primera infancia",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 8
+                    },
+                    {
+                      "idRsRespuesta": 25,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 9,
+                      "descripcionRespuesta": "Salud y asistencia social",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 9
+                    },
+                    {
+                      "idRsRespuesta": 26,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 10,
+                      "descripcionRespuesta": "Actividades creativas, artísticas, culturales, deportivas, esparcimiento y juegos de azar",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 10
+                    },
+                    {
+                      "idRsRespuesta": 27,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 11,
+                      "descripcionRespuesta": "Lavanderías, peluquerías, centros estéticos, micropigmentación, tatuajes, funerarias, baños turcos, masajes, prostíbulos, astrología, espiritismo, agencias matrimoniales, cuidado de mascotas. ",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 11
+                    },
+                    {
+                      "idRsRespuesta": 28,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 12,
+                      "descripcionRespuesta": "Servicios profesionales, científicos y técnicos",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 12
+                    },
+                    {
+                      "idRsRespuesta": 29,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 13,
+                      "descripcionRespuesta": "Seguridad privada, limpieza, apoyo a las empresas y agencias de viajes",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 13
+                    },
+                    {
+                      "idRsRespuesta": 30,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 14,
+                      "descripcionRespuesta": "Servicios de apoyo a las actividades agropecuarias, silvicultura y actividad minera",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 14
+                    },
+                    {
+                      "idRsRespuesta": 31,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 15,
+                      "descripcionRespuesta": "Actividades de servicios(asociaciones, sindicatos, iglesias, templos, organizaciones políticas)",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 15
+                    },
+                    {
+                      "idRsRespuesta": 32,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 16,
+                      "descripcionRespuesta": "Servicios públicos, suministro de electricidad, gas, vapor y aire acondicionado",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 16
+                    },
+                    {
+                      "idRsRespuesta": 33,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 17,
+                      "descripcionRespuesta": "Servicios públicos (Distribución, evacuación y tratamiento de agua, recolección de desechos peligrosos y no peligrosos)",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 17
+                    },
+                    {
+                      "idRsRespuesta": 34,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 18,
+                      "descripcionRespuesta": "Servicios financieros",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 18
+                    },
+                    {
+                      "idRsRespuesta": 35,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 19,
+                      "descripcionRespuesta": "Transporte",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 19
+                    },
+                    {
+                      "idRsRespuesta": 36,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 20,
+                      "descripcionRespuesta": "Construcción",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 20
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "Administración pública y defensa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    },
+                    {
+                      "idRsRespuesta": 38,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 22,
+                      "descripcionRespuesta": "Agricultura, ganadería, caza, silvicultura, pesca, acuicultura, explotación de minas y canteras",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 22
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                }
+              ]
+            },
+            {
+              "idGrupo": 1,
+              "idModulo": 1,
+              "idGrupoModuloPadre": null,
+              "nombreGrupoModulo": "Numeral 8. INGRESOS NO OPERACIONALES",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Numeral 8. INGRESOS NO OPERACIONALES",
+              "preguntas": [
+                {
                   "idPregunta": 1,
                   "idGrupo": 1,
                   "codPregunta": null,
@@ -1851,10 +2129,214 @@
               "idGrupo": 1,
               "idModulo": 1,
               "idGrupoModuloPadre": null,
-              "nombreGrupoModulo": "Numeral 8. INGRESOS NO OPERACIONALES",
+              "nombreGrupoModulo": "Numeral 9. NUMERO DE UNIDADES AUXILIARES",
               "orden": 1,
               "activo": 1,
-              "tooltip": "Numeral 8. INGRESOS NO OPERACIONALES",
+              "tooltip": "Numeral 9. NUMERO DE UNIDADES AUXILIARES",
+              "preguntas": [
+                {
+                  "idPregunta": 1,
+                  "idGrupo": 1,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Número de orden",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "SELECT_CODE",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Número de orden",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 2,
+                      "idPregunta": 2,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "Cédula de ciudadanía",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 3,
+                      "idPregunta": 1,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "Cédula de extranjería/pasaporte",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 15,
+                      "idPregunta": 23,
+                      "OrdenRespuesta": 3,
+                      "descripcionRespuesta": "Tarjeta de Identidad/NUIP",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 3
+                    },
+                    {
+                      "idRsRespuesta": 16,
+                      "idPregunta": 23,
+                      "OrdenRespuesta": 4,
+                      "descripcionRespuesta": "No informa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 4
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "IDTIPODOC",
+                  "tabla": null,
+                  "depende": []
+                }
+              ]
+            },
+            {
+              "idGrupo": 1,
+              "idModulo": 1,
+              "idGrupoModuloPadre": null,
+              "nombreGrupoModulo": "Numeral 10.\n  IMPORTACIONES Y EXPORTACIONES REALIZADAS EN EL AÑO",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Numeral 10.\n  IMPORTACIONES Y EXPORTACIONES REALIZADAS EN EL AÑO",
+              "preguntas": [
+                {
+                  "idPregunta": 1,
+                  "idGrupo": 1,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Número de orden",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "SELECT_CODE",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Número de orden",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 2,
+                      "idPregunta": 2,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "Cédula de ciudadanía",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 3,
+                      "idPregunta": 1,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "Cédula de extranjería/pasaporte",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 15,
+                      "idPregunta": 23,
+                      "OrdenRespuesta": 3,
+                      "descripcionRespuesta": "Tarjeta de Identidad/NUIP",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 3
+                    },
+                    {
+                      "idRsRespuesta": 16,
+                      "idPregunta": 23,
+                      "OrdenRespuesta": 4,
+                      "descripcionRespuesta": "No informa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 4
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "IDTIPODOC",
+                  "tabla": null,
+                  "depende": []
+                }
+              ]
+            },
+            {
+              "idGrupo": 1,
+              "idModulo": 1,
+              "idGrupoModuloPadre": null,
+              "nombreGrupoModulo": "Numeral11. CAPACIDAD INSTALADA Y GENERACIÓN DE ENERGÍA ELÉCTRICA DURANTE EL AÑO",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Numeral11. CAPACIDAD INSTALADA Y GENERACIÓN DE ENERGÍA ELÉCTRICA DURANTE EL AÑO",
               "preguntas": [
                 {
                   "idPregunta": 1,
@@ -2180,6 +2662,620 @@
                   "activo": 1,
                   "tipoRespuesta": null,
                   "tooltip": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "idModulo": 2,
+          "idEncuesta": 1,
+          "nombreModulo": "III. PERSONAL OCUPADO PROMEDIO AÑO Y REMUNERACIÓN ",
+          "idGrupoModuloPrin": null,
+          "visible": 1,
+          "activo": 1,
+          "orden": 2,
+          "tooltip": "ERSONAL OCUPADO PROMEDIO AÑO Y REMUNERACIÓN ",
+          "secciones": [
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 1. PERSONAL PROMEDIO OCUPADO POR LA EMPRESA ENDESARROLLO DE LA ACTIVIDAD COMERCIAL",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "PERSONAL PROMEDIO OCUPADO POR LA EMPRESA ENDESARROLLO DE LA ACTIVIDAD COMERCIAL",
+              "preguntas": []
+            },
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 2. GASTOS CAUSADOS POR EL PERSONAL OCUPADO EN LAACTIVIDAD COMERCIAL. ",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Reporte los gastos causados por el personal reportado en el numeral 1 de este módulo, no incluya gastos causados en años anteriores aun cuando hayan sido pagados en el año.",
+              "preguntas": []
+            }
+          ]
+        },
+        {
+          "idModulo": 2,
+          "idEncuesta": 1,
+          "nombreModulo": "IV. COSTOS Y GASTOS, INVENTARIOS Y ACTIVOS DE LA ACTIVIDAD COMERCIAL",
+          "idGrupoModuloPrin": null,
+          "visible": 1,
+          "activo": 1,
+          "orden": 2,
+          "tooltip": "COSTOS Y GASTOS, INVENTARIOS Y ACTIVOS DE LA ACTIVIDAD COMERCIAL",
+          "secciones": [
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 1. COSTOS Y OTROS GASTOS RELACIONADOS CON LA ACTIVIDADCOMERCIAL. ",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Costos y gastos en que incurre la empresa para el desarrollo de su actividad comercial; permite calcular algunos coeficientes técnicos del sector comercio",
+              "preguntas": []
+            },
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 2. OTROS GASTOS CAUSADOS EN EL AÑO.",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Registre los valores en miles de pesos",
+              "preguntas": []
+            },
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 3. COMPRAS E INVENTARIOS DE MERCANCÍAS COMERCIALIZADASPOR LA EMPRESA DURANTE EL AÑO.",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Registre los valores en miles de pesos",
+              "preguntas": []
+            },
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Numeral 4. INVERSIONES REALIZADAS EN EL AÑO, VALOR DE LOSACTIVOS DE LA EMPRESA UTILIZADOS EN LA ACTIVIDAD COMERCIAL Y GASTO ENDEPRECIACIÓN CAUSADA  EN EL AÑO.                           ",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": " No inlcuya activos por derecho de uso",
+              "preguntas": [
+                {
+                  "idPregunta": 18,
+                  "idGrupo": 8,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Numeral 4.1. VALOR DE LOS ACTIVOS POR DERECHO DE USO UTILIZADOS EN LA ACTIVIDAD COMERCIAL, AMORTIZACIÓN Y GASTO POR INTERESES  (En miles de $) - Según NIIF   ",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_DEFAULT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Diligencie en este numeral los activos por derecho de uso con los que contó la empresa en 2020, dando alcance a las NIIF16 o a la sección 20 de las NIIF para Pymes según aplique.Estos activos no deben incluirse en el númeral 4."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "idModulo": 2,
+          "idEncuesta": 1,
+          "nombreModulo": "V.  INFORMACIÓN DE LA ACTIVIDAD COMERCIAL PORDEPARTAMENTOS",
+          "idGrupoModuloPrin": null,
+          "visible": 1,
+          "activo": 1,
+          "orden": 2,
+          "tooltip": "INFORMACIÓN DE LA ACTIVIDAD COMERCIAL PORDEPARTAMENTOS",
+          "secciones": [
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Departamentos con establecimientos comerciales ",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Tooltip sección",
+              "preguntas": []
+            },
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Observaciones",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Tooltip sección",
+              "preguntas": [
+                {
+                  "idPregunta": 17,
+                  "idGrupo": 8,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Observaciones",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "TEXTBOX",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "idModulo": 2,
+          "idEncuesta": 1,
+          "nombreModulo": "MÓDULO TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN - TIC , COMERCIO ELECTRÓNICO Y TELETRABAJO 2020",
+          "idGrupoModuloPrin": null,
+          "visible": 1,
+          "activo": 1,
+          "orden": 2,
+          "tooltip": "MÓDULO TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN - TIC , COMERCIO ELECTRÓNICO Y TELETRABAJO 2020",
+          "secciones": [
+            {
+              "idGrupo": 8,
+              "idModulo": 2,
+              "idGrupoModuloPadre": 1,
+              "nombreGrupoModulo": "Indique si a 31 de diciembre el 2020 el personal ocupado promedio de su empresa (registrado en el Módulo X Pregunta X) usó alguno de los siguientes bienes TIC suministrados por la empresa. Si su respuesta es afirmativa, especifique el número de bienes TIC en cada opción.  ",
+              "orden": 1,
+              "activo": 1,
+              "tooltip": "Tooltip sección",
+              "preguntas": [
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": " Computador de escritorio",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Opciones",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "SI",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "NO",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "B_1_A",
+                      "tipoInput": "TEXTBOX",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Computador portátil",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Opciones",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "SI",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "NO",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "Administración pública y defensa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Tableta",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Opciones",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "SI",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "NO",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "Administración pública y defensa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Teléfono móvil inteligente (smartphone)",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "Teléfono móvil inteligente (smartphone)",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "SI",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "NO",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "Administración pública y defensa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": "PDA -\n  DMC",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "RADIO_SELECT",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "PDA -\n  DMC",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [
+                    {
+                      "idRsRespuesta": 17,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 1,
+                      "descripcionRespuesta": "SI",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 1
+                    },
+                    {
+                      "idRsRespuesta": 18,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 2,
+                      "descripcionRespuesta": "NO",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 2
+                    },
+                    {
+                      "idRsRespuesta": 37,
+                      "idPregunta": 189,
+                      "OrdenRespuesta": 21,
+                      "descripcionRespuesta": "Administración pública y defensa",
+                      "reglaRespuesta": null,
+                      "tipoDatoRespuesta": null,
+                      "origenRespuesta": null,
+                      "activo": 1,
+                      "ordenRespuesta": 21
+                    }
+                  ],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
+                },
+                {
+                  "idPregunta": 189,
+                  "idGrupo": 15,
+                  "codPregunta": null,
+                  "descripcionPregunta": "Total bienes TIC",
+                  "orden": 1,
+                  "tipoPregunta": 0,
+                  "idPreguntaPadre": null,
+                  "tipoInput": "NUMBERBOX",
+                  "activo": 1,
+                  "tipoRespuesta": null,
+                  "tooltip": "PDA -\n  DMC",
+                  "validaciones": {
+                    "requerido": {
+                      "value": true,
+                      "message": "El valor es requerido para el formulario. "
+                    },
+                    "max": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "min": {
+                      "value": 0,
+                      "message": null
+                    },
+                    "pattern": {
+                      "value": null,
+                      "message": "Mensaje de pattern."
+                    },
+                    "idsRenderHabilitar": null,
+                    "selectInvocar": null,
+                    "tipo": null
+                  },
+                  "opcionesRespuesta": [],
+                  "opcionesUsuario": [],
+                  "selectInvocar": {
+                    "tipo": null,
+                    "parametros": null,
+                    "url": null,
+                    "path": null,
+                    "idSiguiente": null
+                  },
+                  "variable": "CIIU_14",
+                  "tabla": null,
+                  "depende": []
                 }
               ]
             }
