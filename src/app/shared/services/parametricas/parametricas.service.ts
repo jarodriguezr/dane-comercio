@@ -14,6 +14,11 @@ export class ParametricasService {
     private sessionService: SessionService
   ) { }
 
+  
+  getdpto = this.http.loadJsonTemp('assets/json/dpto.json');
+  getmpio = this.http.loadJsonTemp('assets/json/mpio.json');
+  
+  
   getGeneral = (endPoint) => this.http.get(endPoint, this.sessionService.getHeaders())
                                               .pipe(map( (m:any) => {
                                                   m.forEach(element => {

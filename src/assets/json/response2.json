@@ -757,7 +757,7 @@
                 "activo": 1,
                 "tipoRespuesta": null,
                 "tooltip": "Seleccione el municipio ",
-                "depende": "DPTO",
+                "depende": "",
                 "validaciones": {
                   "requerido": {
                     "value": true,
@@ -779,7 +779,7 @@
                   "selectInvocar": {
                     "tipo": null,
                     "parametros": null,
-                    "url": "assets/json/mpio",
+                    "url": "assets/json/mpio.json",
                     "path": null,
                     "idSiguiente": null
                   },
@@ -1459,7 +1459,7 @@
                 "orden": 1,
                 "tipoPregunta": 0,
                 "idPreguntaPadre": null,
-                "tipoInput": "SELECT_CODE",
+                "tipoInput": "DATE_FECHA",
                 "activo": 1,
                 "tipoRespuesta": null,
                 "tooltip": "Número de orden",
