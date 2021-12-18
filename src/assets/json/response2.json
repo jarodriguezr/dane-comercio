@@ -22,6 +22,41 @@
             "activo": 1,
             "tooltip": "Numeral 1. IDENTIFICACIÓN",
             "preguntas": [
+              
+              {
+                "idPregunta": 300,
+                "idGrupo": 1,
+                "codPregunta": null,
+                "descripcionPregunta": "Grupo de mercancías comercializadas ",
+                "orden": 1,
+                "tipoPregunta": 0,
+                "idPreguntaPadre": null,
+                "tipoInput": "TABLE",
+                "activo": 1,
+                "tipoRespuesta": null,
+                "tooltip": "Indique el tipo de documento de identidad de la persona propietaria o representante legal ",
+                 "fuenteDatos":"grupomercancias.json",
+                "columnas": [
+                  {
+                    "encabezado":"Numero",
+                    "tipo": "fijo",
+                    "nombre": "numero"
+                  },
+                  {
+                    "encabezado":"Descripcion",
+                    "tipo": "fijo",
+                    "nombre": "descripcion"
+                  },
+                  {
+                    "encabezado":"Valor de Ventas",
+                    "tipo": "entrada",
+                    "nombre": "valordeventas"
+                  }    
+                ]
+                
+              },
+
+
               {
                 "idPregunta": 1,
                 "idGrupo": 1,
@@ -615,7 +650,7 @@
                 "orden": 1,
                 "tipoPregunta": 0,
                 "idPreguntaPadre": null,
-                "tipoInput": "TEXTBOX",
+                "tipoInput": "TEXT_DEFAULT",
                 "activo": 1,
                 "tipoRespuesta": null,
                 "tooltip": "Opciones",
@@ -935,7 +970,7 @@
                 "orden": 1,
                 "tipoPregunta": 0,
                 "idPreguntaPadre": null,
-                "tipoInput": "TEXTBOX",
+                "tipoInput": "TEXT_DEFAULT",
                 "activo": 1,
                 "tipoRespuesta": null,
                 "tooltip": "Correo electrónico",
@@ -953,8 +988,8 @@
                     "message": null
                   },
                   "pattern": {
-                    "value": null,
-                    "message": "Mensaje de pattern."
+                    "value": "/^[_a-z0-9]+(/\".[_a-z0-9]+)@[a-z0-9-]/\".([a-z]{2,4})$/",
+                    "message": "error en correo"
                   },
                   "idsRenderHabilitar": null,
                   "selectInvocar": null,

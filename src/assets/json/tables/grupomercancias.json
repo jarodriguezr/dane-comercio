@@ -1,0 +1,14 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "alimentos, viveres en genral",
+        "valordeventas": "4"       
+      },
+      {
+        "numero": 2,
+        "descripcion": "ventas no alcoholicas",
+        "valordeventas": "4"       
+      }
+    ]   
+  }

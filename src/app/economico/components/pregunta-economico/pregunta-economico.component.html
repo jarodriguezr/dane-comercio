@@ -33,3 +33,9 @@
       [pregunta]="pregunta"
       [form]="form"
     ></app-input-radio>
+
+    <app-input-table [pregunta]="pregunta"
+    [form]="form"
+     *ngIf="pregunta.tipoInput === 'TABLE'"
+    
+    ></app-input-table>

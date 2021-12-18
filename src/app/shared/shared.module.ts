@@ -16,6 +16,11 @@ import {MatSelectModule} from '@angular/material/select';
 import { InputRadioComponent } from './components/input-radio/input-radio.component';
 import { InputTextboxComponent } from './components/input-textbox/input-textbox.component';
 import { InputCheckboxComponent } from './components/input-checkbox/input-checkbox.component';
+import { InputTableComponent } from './components/input-table/input-table.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
     imports: [
@@ -29,6 +34,11 @@ import { InputCheckboxComponent } from './components/input-checkbox/input-checkb
         MatSelectModule,
         MatTabsModule,
         MatTooltipModule,
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule,
+        MatInputModule,
+        MatSelectModule
     ],
     exports: [
         SelectCodeComponent,
@@ -36,7 +46,13 @@ import { InputCheckboxComponent } from './components/input-checkbox/input-checkb
         InputNumberComponent,
         InputRadioComponent,
         InputTextboxComponent,
-        InputCheckboxComponent
+        InputCheckboxComponent,
+        InputTableComponent,
+        MatTableModule,
+        MatPaginatorModule,
+        MatSortModule,
+        MatInputModule,
+        MatSelectModule
     ],
     declarations: [
         GeneralLayoutComponent,
@@ -46,7 +62,8 @@ import { InputCheckboxComponent } from './components/input-checkbox/input-checkb
         InputNumberComponent,
         InputRadioComponent,
         InputTextboxComponent,
-        InputCheckboxComponent 
+        InputCheckboxComponent,
+        InputTableComponent
     ]
 })
 export class SharedModule {}
