@@ -7,7 +7,7 @@
             [formControlName]="pregunta?.formName"
             [ngClass]="formulario.controls[pregunta.formName].invalid && (formulario.controls[pregunta.formName].dirty || formulario.controls[pregunta.formName].touched) ? 'is-invalid': ''"
             class="form-control">            
-            <option *ngFor="let item of pregunta?.opcionesRespuesta; let i = index" [value]="item.idParametro">{{item.nombre}}</option>    
+            <option *ngFor="let item of pregunta?.opcionesRespuesta; let i = index" [value]="item.codigo">{{item.nombre}}</option>    
         </select>
         <small id="inputHelpBlock{{pregunta.idPregunta}}" class="form-text text-muted">
             {{pregunta?.help}}

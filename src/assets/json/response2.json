@@ -22,7 +22,36 @@
             "activo": 1,
             "tooltip": "Numeral 1. IDENTIFICACIÓN",
             "preguntas": [
-              
+              {
+                "idPregunta": 300,
+                "idGrupo": 1,
+                "codPregunta": null,
+                "descripcionPregunta": "1. Indique el tipo de documento de identidad de la persona propietaria o representante legal ",
+                "orden": 1,
+                "tipoPregunta": 0,
+                "idPreguntaPadre": null,
+                "tipoInput": "TABLE",
+                "activo": 1,
+                "tipoRespuesta": null,
+                "tooltip": "Indique el tipo de documento de identidad de la persona propietaria o representante legal ",
+                 "fuenteDatos":"table1.json",
+                "columnas": [
+                  {
+                    "tipo": "entrada",
+                    "nombre": "id"
+                  },
+                  {
+                    "tipo": "fijo",
+                    "nombre": "name"
+                  },
+                  {
+                    "tipo": "fijo",
+                    "nombre": "iso2"
+                  }    
+                ]
+                
+              },
+
               {
                 "idPregunta": 300,
                 "idGrupo": 1,
@@ -38,19 +67,16 @@
                  "fuenteDatos":"grupomercancias.json",
                 "columnas": [
                   {
-                    "encabezado":"Numero",
                     "tipo": "fijo",
                     "nombre": "numero"
                   },
                   {
-                    "encabezado":"Descripcion",
                     "tipo": "fijo",
                     "nombre": "descripcion"
                   },
                   {
-                    "encabezado":"Valor de Ventas",
                     "tipo": "entrada",
-                    "nombre": "valordeventas"
+                    "nombre": "Valor de ventas"
                   }    
                 ]
                 

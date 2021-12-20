@@ -15,12 +15,12 @@ export class SeccionEconomicoComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  toFormGroup( preguntas: any[] ) {
-    const group: any = {};
-    preguntas.forEach(item => {
-      group[`pregunta-${item.idPregunta}`] = new FormControl('' , Validators.required);
-    });
-    return new FormGroup(group);
-  }
+  // toFormGroup( preguntas: any[] ) {
+  //   const group: any = {};
+  //   preguntas.forEach(item => {
+  //     group[`pregunta-${item.idPregunta}`] = new FormControl('' , Validators.required);
+  //   });
+  //   return new FormGroup(group);
+  // }
 
 }

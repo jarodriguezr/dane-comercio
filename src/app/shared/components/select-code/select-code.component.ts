@@ -1,4 +1,4 @@
-import { Component, DebugElement, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 import { AbstractControl, ControlValueAccessor, FormControl, FormGroup } from '@angular/forms';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
@@ -40,13 +40,11 @@ export class SelectCodeComponent implements OnInit , OnDestroy {
         this.pregunta.depende.forEach(element => {
           
           if(element.tipo === "SELECT"){
-            
             this.formulario.get(element.campo).valueChanges
             .pipe(takeUntil(this.destroy$))
             .subscribe( async (selectedValue:any) => {
-              console.log(this.pregunta.selectInvocar.url + selectedValue);  
-              debugger
-              await  this.parametricasService.getGeneral(this.pregunta.selectInvocar.url + selectedValue).subscribe( (resp:any[]) => {
+              console.log(this.pregunta.selectInvocar.url + selectedValue+".json");
+              await  this.parametricasService.getGeneralLocal(this.pregunta.selectInvocar.url + selectedValue+".json").subscribe( (resp:any[]) => {
                 this.pregunta.opcionesRespuesta = resp;
               } );
             }); 
@@ -75,33 +73,13 @@ export class SelectCodeComponent implements OnInit , OnDestroy {
 
         // obtener datos para carga de componente select 
               
-      }else { 
-        debugger   
-        
-        if(this.pregunta?.validaciones?.selectInvocar?.url){
-          debugger
-          if(this.pregunta?.variable=='MPIO'){
-            this.parametricasService.getmpio.subscribe( (resp:any) => {
-              debugger
-              this.pregunta.opcionesRespuesta = resp
-              this.pregunta.opcionesRespuesta.unshift({
-                codigo:null,
-                nombre: "Seleccionar",
-              });
-            } );
-          }
-          if(this.pregunta?.variable=='DPTO'){
-            this.parametricasService.getdpto.subscribe( (resp:any) => {
-              debugger
-              this.pregunta.opcionesRespuesta = resp
-              this.pregunta.opcionesRespuesta.unshift({
-                codigo:null,
-                nombre: "Seleccionar",
-              });
-            } );
-          }
-         
-                
+      }else {    
+        if(this.pregunta?.selectInvocar?.url){
+          this.parametricasService.getGeneral(this.pregunta.selectInvocar.url).subscribe( (resp:any) => {
+            this.pregunta.opcionesRespuesta = resp
+           
+            
+          } );      
         } else {
           this.pregunta.opcionesRespuesta.unshift({
             idParametro: '',

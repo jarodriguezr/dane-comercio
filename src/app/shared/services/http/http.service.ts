@@ -47,17 +47,20 @@ export class HttpService {
             preg.formName = preg.variable;
             groupSeccionPreg.push(preg);            
             const validaciones:any[] = this.crearValidaciones(preg.validaciones);                        
-            
+           // alert("variable "+preg.variable)
             groupModuleForm[preg.variable] = new FormControl('' ,[...validaciones]);
           });
+          
           groupModulePreg.push(groupSeccionPreg);
 
+          // alert("groupModulePreg: "+JSON.stringify(groupModulePreg
+          //   ));
         });
         element.groupModulePreg = groupModulePreg;
         element.groupModuleForm = new FormGroup(groupModuleForm);
       });
       
-      
+     // alert("resp[0]: "+JSON.stringify(resp[0]))
       return resp[0];
     }));
   }
@@ -66,8 +69,10 @@ export class HttpService {
     const temp:any[] = [];
 
     for (const key in data) {
+      //alert("data:"+JSON.stringify(data))
       if (Object.prototype.hasOwnProperty.call(data, key)) {
         const element = data[key];
+        //alert("element: " +JSON.stringify(element));
         // console.log(element, key);
         switch (key) {
           case 'requerido':

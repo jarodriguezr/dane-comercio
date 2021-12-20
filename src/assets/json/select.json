@@ -1,0 +1,128 @@
+[
+    {
+        "idEncuesta": 1,
+        "nombreEncuesta": "CUESTIONARIO BÁSICO CENSO ECONÓMICO 2021 (preliminar sin ajustes de consulta)",
+        "modulos": [
+            {
+                "idModulo": 1,
+                "idEncuesta": 1,
+                "nombreModulo": "I. UBICACIÓN",
+                "idGrupoModuloPrin": null,
+                "visible": 1,
+                "activo": 1,
+                "orden": 1,
+                "tooltip": "Ubicación",
+                "secciones": [
+                    {
+                        "idGrupo": 1,
+                        "idModulo": 1,
+                        "idGrupoModuloPadre": 1,
+                        "nombreGrupoModulo": "1. Departamento y municipio o corregimiento departamental",
+                        "orden": 1,
+                        "activo": 1,
+                        "tooltip": "1. Departamento y municipio o corregimiento departamental",
+                        "preguntas": [
+                            {
+                                "idPregunta": 1,
+                                "idGrupo": 1,
+                                "variable": "DPTO",
+                                "codPregunta": null,
+                                "descripcionPregunta": "1.a Nombre del departamento",
+                                "orden": 1,
+                                "tipoPregunta": 0,
+                                "idPreguntaPadre": null,
+                                "tipoInput": "SELECT_CODE",
+                                "activo": 1,
+                                "tipoRespuesta": null,
+                                "tooltip": "1.1 Nombre del departamento",
+                                "selectInvocar": {
+                                    "tipo": null,
+                                    "parametros": null,
+                                    "url": "assets/json/dpto.json",
+                                    "path": null,
+                                    "idSiguiente": null
+                                },
+                                "validaciones": {
+                                    "requerido": {
+                                        "value": true,
+                                        "message": "El valor es requerido para el formulario. "
+                                    },
+                                    "max": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "min": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "pattern": {
+                                        "value": null,
+                                        "message": "Mensaje de pattern."
+                                    },
+                                    "idsRenderHabilitar": null,
+                                    "tipo": null
+                                },
+                                "opcionesRespuesta": [],
+                                "opcionesUsuario": [
+                                    "14"
+                                ],
+                                "depende": null
+                            },
+                            {
+                                "idPregunta": 2,
+                                "idGrupo": 1,
+                                "variable": "MPIO",
+                                "codPregunta": null,
+                                "descripcionPregunta": "1.2 Nombre del municipio o áreas no municipalizadas",
+                                "orden": 2,
+                                "tipoPregunta": 0,
+                                "idPreguntaPadre": null,
+                                "tipoInput": "SELECT_CODE",
+                                "activo": 1,
+                                "tipoRespuesta": null,
+                                "tooltip": "1.2 Nombre del municipio o áreas no municipalizadas",
+                                "depende": [
+                                    {
+                                        "campo": "DPTO",
+                                        "tipo": "SELECT",
+                                        "valor": null
+                                    }
+                                ],
+                                "selectInvocar": {
+                                    "tipo": null,
+                                    "parametros": null,
+                                    "url": "assets/json/mpio",
+                                    "path": null,
+                                    "idSiguiente": null
+                                },
+                                "validaciones": {
+                                    "requerido": {
+                                        "value": true,
+                                        "message": "El valor es requerido para el formulario. "
+                                    },
+                                    "max": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "min": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "pattern": {
+                                        "value": null,
+                                        "message": "Mensaje de pattern."
+                                    },
+                                    "idsRenderHabilitar": null,                                    
+                                    "tipo": null
+                                },
+                                "opcionesRespuesta": [],
+                                "opcionesUsuario": ["Example"]
+                            }
+                        ]
+                    }            
+                ]
+            }
+        ]
+    }
+]
+    

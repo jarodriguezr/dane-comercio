@@ -27,12 +27,13 @@ export class ModuloEconomicoComponent implements OnInit, OnDestroy {
     }
               
     this.formulario = this.dataModule.groupModuleForm;
-    this.formulario.statusChanges
+   // alert('groupModuleForm :'+JSON.stringify(this.formulario));
+    this.formulario.statusChanges                   
     .pipe(takeUntil(this.destroy$))
     .subscribe( status => {      
       if(status === 'INVALID'){
         // console.clear();
-        
+        alert('invalido');
         // console.log(this.formulario.getRawValue());        
       } else {
 
