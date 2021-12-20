@@ -47,7 +47,6 @@ export class HttpService {
             preg.formName = preg.variable;
             groupSeccionPreg.push(preg);            
             const validaciones:any[] = this.crearValidaciones(preg.validaciones);                        
-           // alert("variable "+preg.variable)
             groupModuleForm[preg.variable] = new FormControl('' ,[...validaciones]);
           });
           
