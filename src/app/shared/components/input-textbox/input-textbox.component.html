@@ -13,8 +13,17 @@
         <div class="valid-feedback"></div>
         <div class="invalid-feedback">
             <div *ngIf="form.controls[pregunta.formName].errors?.required">
-                Campo requerido
-            </div>  
-        </div>
+              El campo "{{pregunta?.descripcionPregunta}}" es obligatorio
+             </div>
+           <div *ngIf="form.controls[pregunta.formName].errors?.pattern">
+            {{pregunta?.mensajePatron}}
+           </div>
+           <div *ngIf="form.controls[pregunta.formName].errors?.maxlength">
+            El campo "{{pregunta?.descripcionPregunta}}" excede la cantidad máxima de caracteres
+           </div>
+           <div *ngIf="form.controls[pregunta.formName].errors?.minlength">
+            El campo "{{pregunta?.descripcionPregunta}}" es inferior a la cantidad mínima de caracteres
+           </div>  
+          </div>
     </div>
 </div>

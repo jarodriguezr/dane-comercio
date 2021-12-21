@@ -56,13 +56,15 @@ export class ModuloEconomicoComponent implements OnInit, OnDestroy {
         if(element.status === "INVALID"){
           console.log(key);
           console.log(element.errors);
+          alert('invalido');
         }
         
 
       }
     }
     
-    if (this.formulario.invalid) {      
+    if (this.formulario.invalid) {
+      alert('markAllAsTouched');      
       this.formulario.markAllAsTouched();
     } else {
       this.economicoService.reporValue(this.dataModule);

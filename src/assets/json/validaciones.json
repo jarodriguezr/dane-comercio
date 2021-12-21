@@ -33,26 +33,27 @@
                                 "orden": 1,
                                 "tipoPregunta": 0,
                                 "idPreguntaPadre": null,
-                                "tipoInput": "TEXTBOX",
+                                "tipoInput": "TEXT_DEFAULT",
                                 "activo": 1,
                                 "tipoRespuesta": null,
                                 "tooltip": null,
+                                "mensajePatron":"El campo debe estar compuesto de dos letras",
                                 "validaciones": {
                                     "requerido": {
                                         "value": true,
                                         "message": "El valor es requerido para el formulario. "
                                     },
                                     "max": {
-                                        "value": 0,
+                                        "value": 10,
                                         "message": null
                                     },
                                     "min": {
-                                        "value": 0,
+                                        "value": 4,
                                         "message": null
                                     },
                                     "pattern": {
-                                        "value": null,
-                                        "message": "Mensaje de pattern."
+                                        "value": "[a-zA-Z]{2}",
+                                        "message": "Patrón inválido"
                                     },
                                     "idsRenderHabilitar": null,
                                     "selectInvocar": {

@@ -52,8 +52,8 @@ export class HttpService {
           
           groupModulePreg.push(groupSeccionPreg);
 
-          // alert("groupModulePreg: "+JSON.stringify(groupModulePreg
-          //   ));
+          //  alert("groupModulePreg: "+JSON.stringify(groupModulePreg
+          //    ));
         });
         element.groupModulePreg = groupModulePreg;
         element.groupModuleForm = new FormGroup(groupModuleForm);
@@ -70,16 +70,34 @@ export class HttpService {
     for (const key in data) {
       //alert("data:"+JSON.stringify(data))
       if (Object.prototype.hasOwnProperty.call(data, key)) {
-        const element = data[key];
-        //alert("element: " +JSON.stringify(element));
-        // console.log(element, key);
+        const element = data[key];                
+        
+        let validacion = null;
         switch (key) {
           case 'requerido':
-            //alert('dfgsdfg');
-            const cosa = Validators.required;
-            temp.push(cosa )
+            validacion = Validators.required;            
+            temp.push(validacion);
             break;
-        
+          case 'max':
+            if(element.value && element.value != 0){
+              validacion = Validators.maxLength(element.value);
+              temp.push(validacion);
+            }              
+            break;
+          case 'min':
+            if(element.value && element.value != 0){
+              validacion = Validators.minLength(element.value);            
+              temp.push(validacion);
+            }
+            break;
+           case 'pattern':
+             if(element.value && element.value != 0){
+               validacion = Validators.pattern(element.value);            
+               temp.push(validacion);
+             }
+
+             break;
+
           default:
             break;
         }
