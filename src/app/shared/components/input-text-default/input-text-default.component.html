@@ -12,7 +12,7 @@
           name="input{{pregunta.idPregunta}}" 
           [formControlName]="pregunta.formName"
           class="form-control" 
-          placeholder="">
+          [placeholder]="valorDefecto">
         <small id="inputHelpBlock{{pregunta.idPregunta}}" class="form-text text-muted">
           {{pregunta?.help}}
         </small>

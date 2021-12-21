@@ -1,0 +1,104 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Costo de la mercancía vendida (menos descuentos, devoluciones y rebajas)",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Costos de insumos y materiales utilizados en la prestación de servicios de instalación, reparación y mantenimiento.",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Empaques y embalajes (utilizados en la actividad comercial)",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Honorarios y servicios técnicos",
+        "valor": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Gastos de ventas por comisiones a terceros",
+        "valor": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Arrendamiento de bienes inmuebles y muebles",
+        "valor": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Seguros, excepto los de prestaciones sociales",
+        "valor": ""
+      },
+      {
+        "numero": 8,
+        "descripcion": "Aseo y vigilancia",
+        "valor": ""
+      },
+      {
+        "numero": 9,
+        "descripcion": "Energía eléctrica comprada",
+        "valor": ""
+      },
+      {
+        "numero": 10,
+        "descripcion": "Comunicaciones (correo, teléfono, fax, beeper, celular, radioteléfono e internet)",
+        "valor": ""
+      },
+      {
+        "numero": 11,
+        "descripcion": "Acueducto, alcantarillado, aseo ",
+        "valor": ""
+      },
+      {
+        "numero": 12,
+        "descripcion": "Gas natural",
+        "valor": ""
+      },
+      {
+        "numero": 13,
+        "descripcion": "Transportes, fletes y acarreos",
+        "valor": ""
+      },
+      {
+        "numero": 14,
+        "descripcion": "Propaganda y publicidad",
+        "valor": ""
+      },
+      {
+        "numero": 15,
+        "descripcion": "Mantenimiento, reparaciones, adecuación e instalaciones",
+        "valor": ""
+      },
+      {
+        "numero": 16,
+        "descripcion": "Valor causado por la utilizacion de los derechos de autor, marcas, patentes, franquicia, etc.",
+        "valor": ""
+      },
+      {
+        "numero": 17,
+        "descripcion": "Impuestos municipales (industria y comercio, predial, vehículos) y 4 por mil. No incluya impuesto de renta, timbre, ni el impuesto nacional a la gasolina y ACPM.",
+        "valor": ""
+      },
+      {
+        "numero": 18,
+        "descripcion": "Costos y gastos por servicios contratados con terceros (outsourcing) por conceptos diferentes a los anteriores)",
+        "valor": ""
+      },
+      {
+        "numero": 19,
+        "descripcion": "Otros gastos inherentes a la actividad comercial -discrimine en la tabla adjunta-",
+        "valor": ""
+      },
+      {
+        "numero": 20,
+        "descripcion": "TOTAL (renglones 1 a 20)",
+        "valor": ""
+      }
+    ]   
+  }

@@ -1,0 +1,30 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "De 0 a 256"
+    },
+    {
+      "codigo": 2,
+      "nombre": "De 257 a 1.023 (Menos de 1 Mbps)"
+    },
+    {
+      "codigo": 3,
+      "nombre": "De 1.024 a 2.047 (Entre 1 y 2 Mbps)"
+    },
+    {
+      "codigo": 4,
+      "nombre": "De 2.048 a 10.239 (Entre 2 y 10 Mbps)"
+    },
+    {
+      "codigo": 5,
+      "nombre": "De 10.240 a 30.719 (Entre 10 y 30 Mbps)"
+    },
+    {
+      "codigo": 6,
+      "nombre": "De 30.720 a 102.399 (Entre 30 y 100 Mbps)"
+    },
+    {
+      "codigo": 7,
+      "nombre": "Superior o igual a 102.400 (Superior a  100 Mbps)"
+    }
+  ]

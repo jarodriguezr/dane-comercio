@@ -10,10 +10,22 @@ export class InputTextDefaultComponent implements OnInit {
 
   @Input() form: FormGroup;
   @Input() pregunta: any;
+  public valorDefecto:string="";
 
-  constructor() { }
+  constructor() { 
+    
+    
+  }
+
+  public isDisabled= true;
 
   ngOnInit(): void {
+    if(this.pregunta?.soloLectura)
+    this.form.controls[this.pregunta.formName].disable();
+
+    if(this.pregunta?.valorDefecto)
+      this.valorDefecto=this.pregunta.valorDefecto;
+    
   }
 
 }

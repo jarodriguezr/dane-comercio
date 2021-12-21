@@ -1,0 +1,256 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Amazonas",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Antioquia",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Arauca",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Atlántico",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Bogotá, D.C.",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Bolívar",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 8,
+        "descripcion": "Boyacá",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 9,
+        "descripcion": "Caldas",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 10,
+        "descripcion": "Caquetá",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 11,
+        "descripcion": "Casanare",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 12,
+        "descripcion": "Cauca",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 13,
+        "descripcion": "Cesar",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 14,
+        "descripcion": "Chocó",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 15,
+        "descripcion": "Córdoba",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 16,
+        "descripcion": "Cundinamarca",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 17,
+        "descripcion": "Guainía",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 18,
+        "descripcion": "Guaviare",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 19,
+        "descripcion": "Huila",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 20,
+        "descripcion": "La Guajira",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 21,
+        "descripcion": "Magdalena",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 22,
+        "descripcion": "Meta",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 23,
+        "descripcion": "Nariño",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 24,
+        "descripcion": "Norte de Santander",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 25,
+        "descripcion": "Putumayo",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 26,
+        "descripcion": "Quindio",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 27,
+        "descripcion": "Risaralda",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 28,
+        "descripcion": "Santander",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 29,
+        "descripcion": "Sucre",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 30,
+        "descripcion": "Tolima",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 31,
+        "descripcion": "Valle del Cauca",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 32,
+        "descripcion": "Vaupés",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 33,
+        "descripcion": "Vichada",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 34,
+        "descripcion": "TOTAL",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 35,
+        "descripcion": "Número de unidades auxiliares y Personal de unidades auxilliares",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 36,
+        "descripcion": "TOTAL PERSONAL DEPARTAMENTOS Y UNIDADES AUXILIARES",
+        "establecimiento": "",
+        "personal": "",
+        "ingresos": ""
+      }
+    ]   
+  }

@@ -1,0 +1,95 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Agricultura, ganadería , silvicultura y pesca",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Explotación de minas y canteras",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Actividades Manufactureras",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Servicios Públicos",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Construcción",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Comercio, mantenimiento y reparación de vehículos y motocicletas",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Transporte y almacenamiento",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 8,
+        "descripcion": "Alojamiento y servicios de comida ",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 9,
+        "descripcion": "Información y comunicaciones",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 10,
+        "descripcion": "Servicios financieros (banca) y seguros (fondos de pensiones, y otros)",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 11,
+        "descripcion": "Inmobiliarias",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 12,
+        "descripcion": "Otros servicios ",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      },
+      {
+        "numero": 13,
+        "descripcion": "TOTAL (renglones 1 a 12)",
+        "codigo": "",
+        "nroestab": "",
+        "ingresos": ""
+      }
+    ]   
+  }

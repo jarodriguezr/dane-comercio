@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.http.loadDataJsonTemp('assets/json/response2.json').subscribe( (data:any) => {
+    this.http.loadDataJsonTemp('assets/json/response.json').subscribe( (data:any) => {
       this.dataForm = data;
       this.currentItem = this.dataForm?.modulos[0];
       this.preload = false;

@@ -1,0 +1,19 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Ventas de Motocicletas (cuatrimotos, motocarros,etc…) y similares realizadas en los concesionarios y/o almacenes al consumidor final.",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Ventas de flotillas de Motocicletas (cuatrimotos, motocarros,etc…) y similares  a través de convenios, licitaciones, etc., realizadas en los concesionarios.",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Ventas de Motocicletas (cuatrimotos, motocarros,etc…) y similares usados (No incluya las comisiones por  ventas de motocicletas (cuatrimotos, motocarros,etc…) y similares usados efectuados a traves de intermediación,  se deben reportar en el renglón 25, Otros Ingresos netos relacionados con la actividad comercial. )",
+        "valor": ""
+      }
+    ]   
+  }

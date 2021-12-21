@@ -1,4 +1,5 @@
 <h5 class="mt-4">{{dataSeccion.nombreGrupoModulo}}</h5>
 <div *ngFor="let item of dataSeccion?.preguntas">
     <app-pregunta-economico [pregunta]="item" [form]="formulario"></app-pregunta-economico>
+
 </div>

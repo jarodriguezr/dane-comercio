@@ -1,0 +1,30 @@
+[
+    {
+      "codigo": "01",
+      "nombre": "Activa"
+    },
+    {
+      "codigo": "02",
+      "nombre": "Etapa preoperativa"
+    },
+    {
+      "codigo": "03",
+      "nombre": "En concordato"
+    },
+    {
+      "codigo": "04",
+      "nombre": "Intervenida"
+    },
+    {
+      "codigo": "05",
+      "nombre": "En liquidación"
+    },
+    {
+      "codigo": "06",
+      "nombre": "Acuerdo de reestructuración"
+    },
+    {
+      "codigo": "07",
+      "nombre": "Otro"
+    }
+  ]

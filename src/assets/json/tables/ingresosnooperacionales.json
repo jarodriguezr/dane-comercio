@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Ingresos por intereses causados, diferencia en cambio, utilidad por venta de activos, etc., ",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Explotación de minas y canteras",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Descuentos por pronto pago",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Otros ingresos. Incluye: codificación de productos, comisiones por venta de: loterías, tarjetas y pines telefónicos, cobro de servicios publicos; etc. (relacione en observaciones)",
+        "valor": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Total (Suma renglones 1-4)",
+        "valor": ""
+      }
+    ]   
+  }

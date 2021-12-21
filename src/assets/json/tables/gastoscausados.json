@@ -1,0 +1,59 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Sueldos y salarios del personal permanente (en dinero y especie, horas extras, dominicales, comisión por ventas, viáticos permanentes). Incluye Salario integral para personal permanente.",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Prestaciones sociales del personal permanente (primas legales y extralegales, inclusive prima de vacaciones, cesantías e intereses de cesantías)",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Sueldos, salarios del personal temporal contratado directamente por la empresa. Incluye Salario integral del personal temporal contratado directamente.",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Prestaciones sociales del personal  temporal contratado directamente por la empresa",
+        "valor": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Cotizaciones patronales obligatorias (salud, ARL y pensión) del personal permanente, temporal directo y aprendiz",
+        "valor": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Aportes sobre la nómina (SENA, cajas de compensación familiar, ICBF)",
+        "valor": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Aportes voluntarios a compañías de seguros de vida o de sistemas de salud prepagada",
+        "valor": ""
+      },
+      {
+        "numero": 8,
+        "descripcion": "Gastos causados por el personal temporal contratado a través de empresas ",
+        "valor": ""
+      },
+      {
+        "numero": 9,
+        "descripcion": "Apoyo de sostenimiento aprendices (Ley 789 de diciembre de 2002)",
+        "valor": ""
+      },
+      {
+        "numero": 10,
+        "descripcion": "Otros gastos de personal no incluidos antes (incluya auxilio de transporte) (relacione en observaciones).",
+        "valor": ""
+      },
+      {
+        "numero": 11,
+        "descripcion": "TOTAL  (renglones 1 a 10)",
+        "valor": ""
+      }
+    ]   
+  }

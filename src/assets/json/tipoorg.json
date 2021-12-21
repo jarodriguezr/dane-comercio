@@ -1,0 +1,62 @@
+[
+    {
+      "codigo": "01",
+      "nombre": "Sociedad colectiva"
+    },
+    {
+      "codigo": "02",
+      "nombre": "Sociedad en comandita simple"
+    },
+    {
+      "codigo": "03",
+      "nombre": "Sociedad en comandita por acciones"
+    },
+    {
+      "codigo": "04",
+      "nombre": "Sociedad limitada"
+    },
+    {
+      "codigo": "05",
+      "nombre": "Sociedad anónima"
+    },
+    {
+      "codigo": "06",
+      "nombre": "Sociedad de economía mixta"
+    },
+    {
+      "codigo": "07",
+      "nombre": "Sucursal de sociedad extranjera"
+    },
+    {
+      "codigo": "08",
+      "nombre": "Empresa industrial y comercial del Estado"
+    },
+    {
+      "codigo": "09",
+      "nombre": "Empresa unipersonal"
+    },
+    {
+      "codigo": "10",
+      "nombre": "Sociedad de hecho"
+    },
+    {
+      "codigo": "11",
+      "nombre": "Persona Natural"
+    },
+    {
+      "codigo": "12",
+      "nombre": "Organizaciones de economía solidaria"
+    },
+    {
+      "codigo": "13",
+      "nombre": "Entidades sin ánimo de lucro"
+    },
+    {
+      "codigo": "14",
+      "nombre": "Sociedad por Acciones Simplificada"
+    },
+    {
+      "codigo": "99",
+      "nombre": "Otro"
+    }
+  ]

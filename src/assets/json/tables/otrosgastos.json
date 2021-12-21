@@ -1,0 +1,24 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Intereses causados.",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Gastos para provisión de cartera, inventarios y otros",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Otros gastos  -discrimine en la tabla adjunta-",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "TOTAL (renglones 1 a 3)",
+        "valor": ""
+      }
+    ]   
+  }

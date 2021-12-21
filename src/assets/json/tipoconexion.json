@@ -1,0 +1,38 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "Módem analógico (conectado por vía telefónica)"
+    },
+    {
+      "codigo": 2,
+      "nombre": "RDSI"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Banda angosta móvil (GSM - GPRS - WAP - imode - CDMA 1X)"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Módem de cable / Fibra óptica - Canal dedicado"
+    },
+    {
+      "codigo": 5,
+      "nombre": "DSL - ADSL"
+    },
+    {
+      "codigo": 6,
+      "nombre": "Inalámbrico (Wi-Fi, Wimax)"
+    },
+    {
+      "codigo": 7,
+      "nombre": "Satélite"
+    },
+    {
+      "codigo": 8,
+      "nombre": "Banda ancha móvil EDGE - 3G (UMTS) - 3.5G (HSDPA) - 3.75G (HSUPA)"
+    },
+    {
+      "codigo": 9,
+      "nombre": "USB móvil EDGE - 3G (UMTS) - 3.5G (HSDPA) - 3.75G (HSUPA) - 4G"
+    }
+  ]

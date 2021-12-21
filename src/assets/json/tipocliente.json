@@ -1,0 +1,22 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "Hogares (Ventas a hogares para uso personal o doméstico. Incluye las ventas de las estaciones de servicio para vehículos de uso de hogares)."
+    },
+    {
+      "codigo": 2,
+      "nombre": "Comerciantes minoristas. (Ventas a comerciantes minoristas para la reventa al por menor-hogares tales como: tenderos, almacenes, supermercados, concesionarios de vehiculos y motos, etc.)"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Instituciones públicas, privadas y profesionales. (Ventas a entidades tales como hospitales, escuelas, restaurantes, hoteles, agro etc,). Ventas a profesionales dedicados a la prestación de servicios (médicos, arquitectos, ingenieros, etc.)"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Distribuidores mayoristas. (Ventas a distribuidores que compran para revender y que a su vez sus principales clientes  son otros comerciantes mayoristas.)"
+    },
+    {
+      "codigo": 5,
+      "nombre": "Industriales. (Ventas a empresas dedicadas a la transformación de materias primas en productos nuevos)."
+    }
+  ]

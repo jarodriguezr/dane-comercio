@@ -1,0 +1,104 @@
+[
+    {
+        "idEncuesta": 1,
+        "nombreEncuesta": "CUESTIONARIO BÁSICO CENSO ECONÓMICO 2021 (preliminar sin ajustes de consulta)",
+        "modulos": [
+            {
+                "idModulo": 1,
+                "idEncuesta": 1,
+                "nombreModulo": "I. UBICACIÓN",
+                "idGrupoModuloPrin": null,
+                "visible": 1,
+                "activo": 1,
+                "orden": 1,
+                "tooltip": "Ubicación",
+                "secciones": [
+                    {
+                        "idGrupo": 1,
+                        "idModulo": 1,
+                        "idGrupoModuloPadre": 1,
+                        "nombreGrupoModulo": "1. Departamento y municipio o corregimiento departamental",
+                        "orden": 1,
+                        "activo": 1,
+                        "tooltip": "1. Departamento y municipio o corregimiento departamental",
+                        "preguntas": [
+                            
+
+                            {
+                                "idPregunta": 24,
+                                "idGrupo": 16,
+                                "variable": null,
+                                "codPregunta": null,
+                                "descripcionPregunta": "15. Opciones",
+                                "orden": 1,
+                                "tipoPregunta": 0,
+                                "idPreguntaPadre": null,
+                                "tipoInput": "TEXTBOX",
+                                "activo": 1,
+                                "tipoRespuesta": null,
+                                "tooltip": null,
+                                "validaciones": {
+                                    "requerido": {
+                                        "value": true,
+                                        "message": "El valor es requerido para el formulario. "
+                                    },
+                                    "max": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "min": {
+                                        "value": 0,
+                                        "message": null
+                                    },
+                                    "pattern": {
+                                        "value": null,
+                                        "message": "Mensaje de pattern."
+                                    },
+                                    "idsRenderHabilitar": null,
+                                    "selectInvocar": {
+                                        "tipo": null,
+                                        "parametros": null,
+                                        "url": null,
+                                        "path": null,
+                                        "idSiguiente": null
+                                    },
+                                    "tipo": null
+                                },
+                                "opcionesRespuesta": [{
+                                    "idRsRespuesta": 39,
+                                    "idPregunta": 24,
+                                    "OrdenRespuesta": 1,
+                                    "descripcionRespuesta": "Única",
+                                    "reglaRespuesta": null,
+                                    "tipoDatoRespuesta": null,
+                                    "origenRespuesta": null,
+                                    "activo": 1,
+                                    "ordenRespuesta": 1
+                                }, {
+                                    "idRsRespuesta": 40,
+                                    "idPregunta": 24,
+                                    "OrdenRespuesta": 2,
+                                    "descripcionRespuesta": "Hace parte de una empresa con varios establecimientos",
+                                    "reglaRespuesta": null,
+                                    "tipoDatoRespuesta": null,
+                                    "origenRespuesta": null,
+                                    "activo": 1,
+                                    "ordenRespuesta": 2
+                                }],
+                                "opcionesUsuario": []
+                            }
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        ]
+                    }            
+                ]
+            }
+        ]
+    }
+]
+    

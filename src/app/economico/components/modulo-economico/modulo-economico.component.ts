@@ -33,7 +33,7 @@ export class ModuloEconomicoComponent implements OnInit, OnDestroy {
     .subscribe( status => {      
       if(status === 'INVALID'){
         // console.clear();
-        alert('invalido');
+        //alert('invalido');
         // console.log(this.formulario.getRawValue());        
       } else {
 

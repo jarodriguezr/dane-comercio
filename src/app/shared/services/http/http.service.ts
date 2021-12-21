@@ -75,6 +75,7 @@ export class HttpService {
         // console.log(element, key);
         switch (key) {
           case 'requerido':
+            //alert('dfgsdfg');
             const cosa = Validators.required;
             temp.push(cosa )
             break;

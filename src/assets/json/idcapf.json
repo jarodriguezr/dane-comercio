@@ -1,0 +1,26 @@
+[
+    {
+      "codigo": 1,
+      "nombre": "Liquidada"
+    },
+    {
+      "codigo": 2,
+      "nombre": "Por huelga"
+    },
+    {
+      "codigo": 3,
+      "nombre": "Por ampliación"
+    },
+    {
+      "codigo": 4,
+      "nombre": "Por traslado"
+    },
+    {
+      "codigo": 5,
+      "nombre": "Por fusión"
+    },
+    {
+      "codigo": 6,
+      "nombre": "Otra "
+    }
+  ]

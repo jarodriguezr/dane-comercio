@@ -1,0 +1,40 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Valor al inicio del año, sin depreciar de los activos por derecho de uso",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Valor al final del año, sin depreciar  de los activos por derecho de uso",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Gastos en activos por derecho de uso (amortización y gasto por intereses )",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      }
+    ]   
+  }

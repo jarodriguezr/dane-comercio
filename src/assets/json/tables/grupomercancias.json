@@ -2,13 +2,264 @@
     "data": [
       {
         "numero": 1,
-        "descripcion": "alimentos, viveres en genral",
-        "valordeventas": "4"       
+        "descripcion": "Alimentos, víveres en general ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""
       },
       {
         "numero": 2,
-        "descripcion": "ventas no alcoholicas",
-        "valordeventas": "4"       
+        "descripcion": "Bebidas no alcohólicas.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Bebidas alcohólicas, cigarros, cigarrillos y productos del tabaco . No incluya la venta de bebidas para el consumo dentro del establecimiento.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 4,
+        "descripcion": "Prendas de vestir, sus accesorios y artículos de peletería,  y textiles ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 5,
+        "descripcion": "Calzado de todo tipo, marroquinería, artículos de cuero y sucedaneos del cuero.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 6,
+        "descripcion": "Productos farmacéuticos y medicinales; artículos ortopédicos ; medicamentos y articulos veterinarios.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 7,
+        "descripcion": "Aseo personal, cosméticos y perfumería.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 8,
+        "descripcion": "Electrodomésticos y gasodomésticos.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 9,
+        "descripcion": "Muebles para el hogar. ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 10,
+        "descripcion": "Equipo de informática y telecomunicaciones.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 11,
+        "descripcion": "Equipos y aparatos de sonido y video (televisores…)",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 12,
+        "descripcion": "Libros, periódicos, revistas, papelería en general, útiles escolares y de escritorio. ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 13,
+        "descripcion": "Artículos y utensilios de uso doméstico. (menaje).",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 14,
+        "descripcion": "Productos para el aseo del hogar. ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 15,
+        "descripcion": "Otras mercancías para uso personal o doméstico, no especificadas anteriormente. Especifique en observaciones.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 16,
+        "descripcion": "Materiales y equipo de construcción, articulos de ferretería, vidrio, pinturas y fontaneria.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 17,
+        "descripcion": "Combustibles sólidos, liquidos y gaseosos para todo tipo de usos.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 18,
+        "descripcion": "Motocicletas y similares.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 19,
+        "descripcion": "Vehículos automotores.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 20,
+        "descripcion": "Repuestos, partes, accesorios y lubricantes para vehículos automotores y motocicletas.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 21,
+        "descripcion": "Máquinas y equipos agrícolas industriales, mineros, de oficina, etc., sus partes, piezas y accesorios,(excepto automotores). ",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 22,
+        "descripcion": "Equipos, aparatos e instrumentos para cirugía, odontología y ortopedia.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 23,
+        "descripcion": "Materias primas agropecuarias, cueros, pieles y animales vivos. Incluye madera en bruto",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 24,
+        "descripcion": "Productos químicos industriales básicos, plástico y caucho en formas primarias y productos químicos agropecuarios",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 25,
+        "descripcion": "Otras materias primas industriales",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 26,
+        "descripcion": "Mercancías para uso empresarial no especificadas previamente. Si el sistema lo solicita, especifique en observaciones.",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 27,
+        "descripcion": "Ingresos derivados de la instalación, reparación o mantenimiento de las mercancías comercializadas por la empresa. Incluye el mantenimiento y reparación de vehículos automotores y motocicletas",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 28,
+        "descripcion": "Otros ingresos netos relacionados con la actividad comercial.  (comisiones por ventas, apoyo publicitario, eventos patrocinados, comisiones por contraprestación de concesionarios ubicadas dentro de los establecimientos de comercio, entre otros)",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
+      },
+      {
+        "numero": 29,
+        "descripcion": "TOTAL  (renglones 1 al 28)",
+        "valordeventas": "",
+        "ventasmay": "",
+        "ventasmin": "",
+        "ventascomp": "",
+        "ventascomv": ""         
       }
     ]   
   }

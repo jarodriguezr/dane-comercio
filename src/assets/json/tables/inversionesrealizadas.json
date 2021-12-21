@@ -1,0 +1,124 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Valor al inicio del año, sin depreciar",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Compra de activos",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Valor causado por mejoras y reformas a los activos ",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Total inversiones en activos fijos (2 + 3)",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Valorización causada  en el año",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Desvalorización causada  en el año",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Retiros causados",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 8,
+        "descripcion": "Valor en libros de los activos vendidos",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 9,
+        "descripcion": "Valor al final del año, sin depreciar (1+ 4+ 5-6-7-8) ",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      },
+      {
+        "numero": 10,
+        "descripcion": "Gasto depreciación causada en el año.",
+        "terreno": "",
+        "construccion": "",
+        "edificio": "",
+        "maquinaria": "",
+        "informatica": "",
+        "software": "",
+        "transporte": "",
+        "total": ""
+      }
+    ]   
+  }

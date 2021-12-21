@@ -1,0 +1,24 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Venta directa en sus establecimientos ubicados en centros comerciales",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Venta directa en sus establecimientos ubicados en lugares diferentes a centros comerciales",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Ventas a través de plataformas de comercio electrónico. Diligencie el Módulo TIC, pregunta 13",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Total ventas (debe ser 100%)",
+        "valor": ""
+      }
+    ]   
+  }

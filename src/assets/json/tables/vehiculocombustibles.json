@@ -1,0 +1,74 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Automóviles particulares",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Camperos y camionetas",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Vehículos de transporte público de pasajeros",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Vehículos de carga",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Motos",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 6,
+        "descripcion": "Otros (Vehiculos especiales)",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      },
+      {
+        "numero": 7,
+        "descripcion": "Total",
+        "diesel": "",
+        "gasolina": "",
+        "hibrido": "",
+        "dedicado": "",
+        "electrico": "",
+        "total": ""
+      }
+    ]   
+  }

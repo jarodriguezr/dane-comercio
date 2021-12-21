@@ -1,0 +1,24 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Ventas de Vehículos automotores nuevos tipo automóviles particulares, camperos, camionetas  realizadas en los concesionarios y/o almacenes al consumidor final.",
+        "valor": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Ventas de flotillas a través de convenios, licitaciones, etc.; de los vehículos tipo automóviles, camperos, camionetas realizadas en los concesionarios.",
+        "valor": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Ventas de vehículos efectuadas a otros concesionarios sin importar su tipo. Adicionalmente se incluyen las ventas al consumidor final de vehículos nuevos tipo transporte público, vehículos de carga y otros*.",
+        "valor": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Vehículos usados (No incluya las comisiones por  ventas de vehículos usados efectuados a traves de intermediación,  se deben reportar en el renglón 25, Otros Ingresos netos relacionados con la actividad comercial. )",
+        "valor": ""
+      }
+    ]   
+  }

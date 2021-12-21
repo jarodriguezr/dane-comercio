@@ -1,0 +1,54 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Emergencia",
+        "plantas": "",
+        "capacidad": "",
+        "tiempo": "",
+        "gasolina": "",
+        "diesel": "",
+        "gas": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Respaldo",
+        "plantas": "",
+        "capacidad": "",
+        "tiempo": "",
+        "gasolina": "",
+        "diesel": "",
+        "gas": ""
+      },
+      {
+        "numero": 3,
+        "descripcion": "Solar",
+        "plantas": "",
+        "capacidad": "",
+        "tiempo": "",
+        "gasolina": "",
+        "diesel": "",
+        "gas": ""
+      },
+      {
+        "numero": 4,
+        "descripcion": "Eólica",
+        "plantas": "",
+        "capacidad": "",
+        "tiempo": "",
+        "gasolina": "",
+        "diesel": "",
+        "gas": ""
+      },
+      {
+        "numero": 5,
+        "descripcion": "Otro tipo de planta",
+        "plantas": "",
+        "capacidad": "",
+        "tiempo": "",
+        "gasolina": "",
+        "diesel": "",
+        "gas": ""
+      }
+    ]   
+  }
