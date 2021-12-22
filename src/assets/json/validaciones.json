@@ -52,7 +52,7 @@
                                         "message": null
                                     },
                                     "pattern": {
-                                        "value": "[a-zA-Z]{2}",
+                                        "value": "[a-zA-Z]{4}",
                                         "message": "Patrón inválido"
                                     },
                                     "idsRenderHabilitar": null,

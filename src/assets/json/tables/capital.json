@@ -1,0 +1,18 @@
+{
+    "data": [
+      {
+        "numero": 1,
+        "descripcion": "Nacional",
+        "porcentaje": "",
+        "publico": "",
+        "privado": ""
+      },
+      {
+        "numero": 2,
+        "descripcion": "Extranjero",
+        "porcentaje": "",
+        "publico": "",
+        "privado": ""
+      }
+    ]   
+  }

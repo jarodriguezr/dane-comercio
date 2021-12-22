@@ -5,14 +5,17 @@
             class="icon-help ml-1" width="15px" 
             alt="botón ayuda" matTooltip="{{pregunta.tooltip}}">
         </label>
-        <input 
+        {{pregunta?.mensajePatron}}
+        <div>
+        <input
           id="input{{pregunta.idPregunta}}" 
           [ngClass]="form.controls[pregunta.formName].invalid && (form.controls[pregunta.formName].dirty || form.controls[pregunta.formName].touched) ? 'is-invalid': ''"
           type="text" 
           name="input{{pregunta.idPregunta}}" 
           [formControlName]="pregunta.formName"
-          class="form-control" 
-          [placeholder]="valorDefecto">
+          class="form-control"
+          [style]="pregunta.width"
+          [placeholder]="valorDefecto">{{pregunta.signo}}
         <small id="inputHelpBlock{{pregunta.idPregunta}}" class="form-text text-muted">
           {{pregunta?.help}}
         </small>
@@ -23,6 +26,7 @@
            </div>
          <div *ngIf="form.controls[pregunta.formName].errors?.pattern">
           {{pregunta?.mensajePatron}}
+
          </div>
          <div *ngIf="form.controls[pregunta.formName].errors?.maxlength">
           El campo "{{pregunta?.descripcionPregunta}}" excede la cantidad máxima de caracteres
@@ -33,3 +37,4 @@
         </div>
     </div>
 </div>
+

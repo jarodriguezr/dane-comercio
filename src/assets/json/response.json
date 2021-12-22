@@ -35,6 +35,7 @@
 				  "tipoRespuesta": null,
 				  "tooltip": "Número de orden",
 				  "valorDefecto": "20001",
+				  "width": "width:15%;",
 				  "soloLectura": true
 				},
 				{
@@ -125,9 +126,10 @@
 				  "orden": 3,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "NUMBERBOX",
+				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
-				  "tipoRespuesta": null,
+				  "tipoRespuesta": null,				  
+				  "width": "width:30%;",
 				  "tooltip": "Digite el número de Cédula de Ciudadanía/Tarjeta de Identidad/NUIP",
 				  "validaciones": {
 					"requerido": {
@@ -135,11 +137,11 @@
 					  "message": "El valor es requerido para el formulario. "
 					},
 					"max": {
-					  "value": 0,
+					  "value": 10,
 					  "message": null
 					},
 					"min": {
-					  "value": 0,
+					  "value": 1,
 					  "message": null
 					},
 					"pattern": {
@@ -174,14 +176,15 @@
 				  "tipoInput": "NUMBERBOX",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Digite el digito de verificación",
+				  "tooltip": "Digite el digito de verificación",				  
+				  "width": "width:12%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": false,
 					  "message": "El DV es requerido para el formulario. "
 					},
 					"max": {
-					  "value": 9,
+					  "value": 1,
 					  "message": "Valor no válido en DV"
 					},
 					"min": {
@@ -289,14 +292,15 @@
 				  "tipoInput": "NUMBERBOX",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Opciones",
+				  "tooltip": "Opciones",				  
+				  "width": "width:30%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
 					  "message": "El valor es requerido para el formulario. "
 					},
 					"max": {
-					  "value": 0,
+					  "value": 3,
 					  "message": null
 					},
 					"min": {
@@ -335,14 +339,15 @@
 				  "tipoInput": "NUMBERBOX",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Opciones",
+				  "tooltip": "Opciones",				  
+				  "width": "width:30%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
 					  "message": "El valor es requerido para el formulario. "
 					},
 					"max": {
-					  "value": 0,
+					  "value": 11,
 					  "message": null
 					},
 					"min": {
@@ -389,21 +394,22 @@
 				  "orden": 1,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXTBOX",
+				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "1.  Razón social de la empresa",
+				  "tooltip": "1.  Razón social de la empresa",				  
+				  "width": "width:100%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
 					  "message": "El valor es requerido para el formulario. "
 					},
 					"max": {
-					  "value": 0,
+					  "value": 100,
 					  "message": null
 					},
 					"min": {
-					  "value": 0,
+					  "value": 2,
 					  "message": null
 					},
 					"pattern": {
@@ -438,7 +444,8 @@
 				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "LGGR",
+				  "tooltip": "LGGR",				  
+				  "width": "width:40%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -481,10 +488,11 @@
 				  "orden": 1,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXTBOX",
+				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Opciones",
+				  "tooltip": "Opciones",				  
+				  "width": "width:80%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -530,7 +538,8 @@
 				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Opciones",
+				  "tooltip": "Opciones",				  
+				  "width": "width:35%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -574,10 +583,11 @@
 				  "orden": 2,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXTBOX",
+				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "4. Domicilio principal o dirección de la gerencia (Apartamento, torre, casa, etc...)                    ",
+				  "tooltip": "4. Domicilio principal o dirección de la gerencia (Apartamento, torre, casa, etc...)",				  
+				  "width": "width:100%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -623,6 +633,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Seleccione el departamento",
+				  "width": "width:50%;",
 				  "selectInvocar": {
 					"tipo": null,
 					"parametros": null,
@@ -669,6 +680,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Seleccione el municipio ",
+				  "width": "width:40%;",
 				  "depende": [
 					  {
 						  "campo": "IDDEPTO",
@@ -720,6 +732,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Opciones",
+				  "width": "width:30%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -766,6 +779,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Redes sociales",
+				  "width": "width:80%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -812,6 +826,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Correo electrónico",
+				  "width": "width:70%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -858,6 +873,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Página Web",
+				  "width": "width:60%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -901,10 +917,11 @@
 				  "orden": 2,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXTBOX",
+				  "tipoInput": "TEXT_DEFAULT",
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Dirección para  notificación",
+				  "width": "width:100%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -950,6 +967,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "LGPN",
+				  "width": "width:40%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -985,7 +1003,7 @@
 				{
 				  "idPregunta": 21,
 				  "idGrupo": 2,
-				  "variable": "DPTO",
+				  "variable": "IDDEPTO1",
 				  "codPregunta": null,
 				  "descripcionPregunta": "12. Departamento",
 				  "orden": 1,
@@ -995,6 +1013,14 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Seleccione el departamento",
+				  "width": "width:50%;",				  
+					"selectInvocar": {
+						"tipo": null,
+						"parametros": null,
+						"url": "assets/json/dpto.json",
+						"path": "",
+						"idSiguiente": null
+					  },
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1013,13 +1039,6 @@
 					  "message": "Mensaje de pattern."
 					},
 					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": "assets/json/dpto.json",
-					  "path": "assets/json/dpto.json",
-					  "idSiguiente": null
-					},
 					"tipo": null
 				  },
 				  "opcionesRespuesta": [],
@@ -1030,7 +1049,7 @@
 				{
 				  "idPregunta": 22,
 				  "idGrupo": 2,
-				  "variable": "MPIO",
+				  "variable": "IDMPIO1",
 				  "codPregunta": null,
 				  "descripcionPregunta": "13. Municipio",
 				  "orden": 2,
@@ -1040,7 +1059,21 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Seleccione Municipio",
-				  "depende": "",
+				  "width": "width:40%;",
+				  "depende": [
+					  {
+						  "campo": "IDDEPTO1",
+						  "tipo": "SELECT",
+						  "valor": null
+					  }
+				  ],
+				  "selectInvocar": {
+					"tipo": null,
+					"parametros": null,
+					"url": "assets/json/mpio",
+					"path": "",
+					"idSiguiente": null
+				  },
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1059,13 +1092,6 @@
 					  "message": "Mensaje de pattern."
 					},
 					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": "assets/json/mpio-19.json",
-					  "path": "assets/json/mpio-19.json",
-					  "idSiguiente": null
-					},
 					"tipo": null
 				  },
 				  "opcionesRespuesta": [],
@@ -1085,6 +1111,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Ingresar número de teléfono",
+				  "width": "width:30%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1131,6 +1158,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Redes sociales",
+				  "width": "width:80%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1177,6 +1205,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Opciones",
+				  "width": "width:70%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1225,7 +1254,7 @@
 				{
 				  "idPregunta": 26,
 				  "idGrupo": 3,
-				  "variable": " IDOJ",
+				  "variable": "IDOJ",
 				  "codPregunta": null,
 				  "descripcionPregunta": "",
 				  "orden": 2,
@@ -1234,8 +1263,16 @@
 				  "tipoInput": "SELECT_CODE",
 				  "activo": 1,
 				  "tipoRespuesta": null,
-				  "tooltip": "Seleccione Municipio",
+				  "tooltip": "Seleccione Tipo Organización",
+				  "width": "width:60%;",
 				  "depende": "",
+				  "selectInvocar": {
+					"tipo": null,
+					"parametros": null,
+					"url": "assets/json/tipoorg.json",
+					"path": "",
+					"idSiguiente": null
+				  },
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1254,17 +1291,63 @@
 					  "message": "Mensaje de pattern."
 					},
 					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": "assets/json/tipoorg.json",
-					  "path": "assets/json/tipoorg.json",
-					  "idSiguiente": null
-					},
 					"tipo": null
 				  },
 				  "opcionesRespuesta": [],
 				  "opcionesUsuario": []
+				},
+				{
+				  "idPregunta": 27,
+				  "idGrupo": 3,
+				  "variable": " IDOJ1",
+				  "codPregunta": null,
+				  "descripcionPregunta": "",
+				  "orden": 2,
+				  "tipoPregunta": 0,
+				  "idPreguntaPadre": null,
+				  "tipoInput": "SELECT_CODE",
+				  "activo": 1,
+				  "tipoRespuesta": null,
+				  "tooltip": "",
+				  "width": "width:90%;",
+				  "depende": [
+					  {
+						  "campo": "IDOJ",
+						  "tipo": "SELECT",
+						  "valor": null
+					  }
+				  ],
+				  "selectInvocar": {
+					"tipo": null,
+					"parametros": null,
+					"url": "assets/json/ecosol",
+					"path": "",
+					"idSiguiente": null
+				  },
+				  "validaciones": {
+					"requerido": {
+					  "value": true,
+					  "message": "El valor es requerido para el formulario. "
+					},
+					"max": {
+					  "value": 0,
+					  "message": null
+					},
+					"min": {
+					  "value": 0,
+					  "message": null
+					},
+					"pattern": {
+					  "value": null,
+					  "message": "Mensaje de pattern."
+					},
+					"idsRenderHabilitar": null,
+					"tipo": null
+				  },
+				  "opcionesRespuesta": [],
+				  "opcionesUsuario": [
+					"Example"
+				  ]
 				}
 			  ]
 			},
@@ -1289,6 +1372,8 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Fecha Desde",
+				  "width": "width:25%;",
+				  "valorDefecto": "DD/MM/YYYY",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1334,6 +1419,8 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Fecha hasta",
+				  "width": "width:25%;",
+				  "valorDefecto": "DD/MM/YYYY",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1380,263 +1467,46 @@
 			  "tooltip": "Numeral 5.  Composición del capital social",
 			  "preguntas": [
 				{
-				  "idPregunta":29,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Nacional",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				},
-				{
-				  "idPregunta":30,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Público",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				},
-				{
-				  "idPregunta":31,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Privado",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				},
-				{
-				  "idPregunta":32,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Extranjero",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				},
-				{
-				  "idPregunta":33,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Público",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				},
-				{
-				  "idPregunta":34,
-				  "idGrupo": 5,
-				  "codPregunta": null,
-				  "descripcionPregunta": "Privado",
-				  "orden": 1,
-				  "tipoPregunta": 0,
-				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
-				  "activo": 1,
-				  "tipoRespuesta": null,
-				  "tooltip": null,
-				  "validaciones": {
-					"requerido": {
-					  "value": true,
-					  "message": "El valor es requerido para el formulario. "
-					},
-					"max": {
-					  "value": 0,
-					  "message": null
-					},
-					"min": {
-					  "value": 0,
-					  "message": null
-					},
-					"pattern": {
-					  "value": null,
-					  "message": "Mensaje de pattern."
-					},
-					"idsRenderHabilitar": null,
-					"selectInvocar": {
-					  "tipo": null,
-					  "parametros": null,
-					  "url": null,
-					  "path": null,
-					  "idSiguiente": null
-					},
-					"tipo": null
-				  },
-				  "opcionesRespuesta": [],
-				  "opcionesUsuario": [],
-				  "variable": null
-				}
+					"idPregunta": 29,
+					"idGrupo": 5,
+					"codPregunta": null,
+					"descripcionPregunta": "",
+					"orden": 1,
+					"tipoPregunta": 0,
+					"idPreguntaPadre": null,
+					"tipoInput": "TABLE",
+					"activo": 1,
+					"tipoRespuesta": null,
+					"tooltip": "",
+					"fuenteDatos":"capital.json",
+					"columnas": [
+					  {
+						"encabezado":"Nro.",
+						"tipo": "fijo",
+						"nombre": "numero"
+					  },
+					  {
+						"encabezado":"",
+						"tipo": "fijo",
+						"nombre": "descripcion"
+					  },
+					  {
+						"encabezado":"% Total",
+						"tipo": "entrada",
+						"nombre": "porcentaje"
+					  },
+					  {
+						"encabezado":"% Público",
+						"tipo": "entrada",
+						"nombre": "publico"
+					  },
+					  {
+						"encabezado":"% Privado",
+						"tipo": "entrada",
+						"nombre": "privado"
+					  }
+					]
+				  }
 			  ]
 			},
 			{
@@ -1660,6 +1530,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "ESTADO ACTUAL DE LA EMPRESA",
+				  "width": "width:45%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -1799,10 +1670,11 @@
 				  "orden": 1,
 				  "tipoPregunta": 0,
 				  "idPreguntaPadre": null,
-				  "tipoInput": "TEXT_DEFAULT",
+				  "tipoInput": "NUMBERBOX",
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Número de unidades auxiliares*",
+				  "width": "width:20%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2098,6 +1970,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Año de iniciación de operaciones de la actividad comercial",
+				  "width": "width:15%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2144,6 +2017,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Meses de operación de la actividad comercial en el año",
+				  "width": "width:10%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2190,6 +2064,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "",
+				  "width": "width:30%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2228,6 +2103,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Número de departamentos en las que la empresa cuenta con establecimientos comerciales, agencias o bodegas en donde realiza facturación de sus ventas",
+				  "width": "width:20%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2285,6 +2161,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Nombre y apellidos",
+				  "width": "width:90%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2331,6 +2208,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Correo electrónico",
+				  "width": "width:70%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2377,6 +2255,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Celular",
+				  "width": "width:40%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2434,6 +2313,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Nombre y apellidos",
+				  "width": "width:90%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2480,6 +2360,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Cargo",
+				  "width": "width:60%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2526,6 +2407,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Teléfono",
+				  "width": "width:40%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2572,6 +2454,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Extensión",
+				  "width": "width:20%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2618,6 +2501,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Correo electrónico",
+				  "width": "width:70%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -2664,6 +2548,7 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Celular",
+				  "width": "width:40%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -5253,6 +5138,8 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Opciones",
+				  "signo": "%",
+				  "width": "width:12%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
@@ -5310,6 +5197,8 @@
 				  "activo": 1,
 				  "tipoRespuesta": null,
 				  "tooltip": "Opciones",
+				  "signo": "%",
+				  "width": "width:12%;",
 				  "validaciones": {
 					"requerido": {
 					  "value": true,
